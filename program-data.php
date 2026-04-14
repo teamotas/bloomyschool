@@ -5,7 +5,7 @@ $programs = [
 
     "toddlers" => [
         "title" => "Toddlers Program in Sahibabad | Bloomy Preschool & Daycare",
-        "breadcrumb"=>"Toddlers Club ",
+        "breadcrumb"=>"Toddlers ",
         "url" => "toddlers-club-program.php",
         "image" => "./assets/images/thumbs/1.png",
 
@@ -25,10 +25,10 @@ $programs = [
 
         "goal" => "To develop early learning, confidence and social interaction in a safe and happy environment.",
 
-        "age" => "1.5 - 3 years",
-        "time" => "2 Hours",
-        "days" => "Monday - Saturday",
-        "fee" => "₹2500"
+        "age" => "1 - 2 years",
+        "time" => "3 Hours",
+        "days" => "Monday - Friday",
+        // "fee" => "₹2500"
     ],
 
     "playgroup" => [
@@ -54,9 +54,9 @@ $programs = [
         "goal" => "To prepare children for nursery with strong social and communication skills.",
 
         "age" => "2 - 3 years",
-        "time" => "2.5 Hours",
-        "days" => "Monday - Saturday",
-        "fee" => "₹3000"
+        "time" => "3 Hours",
+        "days" => "Monday - Friday",
+        // "fee" => "₹3000"
     ],
 
     "nursery" => [
@@ -83,8 +83,8 @@ $programs = [
 
         "age" => "3 - 4 years",
         "time" => "3 Hours",
-        "days" => "Monday - Saturday",
-        "fee" => "₹3500"
+        "days" => "Monday - Friday",
+        // "fee" => "₹3500"
     ],
 
     "junior-kg" => [
@@ -111,8 +111,8 @@ $programs = [
 
         "age" => "4 - 5 years",
         "time" => "3 Hours",
-        "days" => "Monday - Saturday",
-        "fee" => "₹4000"
+        "days" => "Monday - Friday",
+        // "fee" => "₹4000"
     ],
 
     "senior-kg" => [
@@ -138,9 +138,9 @@ $programs = [
         "goal" => "To prepare children fully for primary school.",
 
         "age" => "5 - 6 years",
-        "time" => "3.5 Hours",
-        "days" => "Monday - Saturday",
-        "fee" => "₹4500"
+        "time" => "3 Hours",
+        "days" => "Monday - Friday",
+        // "fee" => "₹4500"
     ],
 
     "day-care" => [
@@ -165,10 +165,10 @@ $programs = [
 
         "goal" => "To provide a safe, caring and engaging environment.",
 
-        "age" => "1.5 - 10 years",
-        "time" => "Full Day",
-        "days" => "Monday - Saturday",
-        "fee" => "₹2000"
+        "age" => "1.5 - 12 years",
+        "time" => "8:00 AM - 8:00 PM",
+        "days" => "Monday - Friday",
+        // "fee" => "₹2000"
     ],
 ];
 

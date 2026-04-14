@@ -60,8 +60,8 @@
                                 <div>
                                     <span class="fw-normal tw-text-4 text-black tw-mb-2">Call Now</span>
                                     <h2 class="h5">
-                                        <a href="tel:+91 98101 83523" class="fw-bold text-main-600 hover-underline tw-duration-300">
-                                            +91 98101 83523
+                                        <a href="tel:+919810865370" class="fw-bold text-main-600 hover-underline tw-duration-300">
+                                            +91 981-086-5370 
                                         </a>
                                     </h2>
                                 </div>
@@ -85,22 +85,22 @@
             <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                 <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Expert Teachers</span>
-                    <h1 class="fw-normal text-main-600 counter">15+</h1>
+                    <h1 class="fw-normal text-main-600 counter">25+</h1>
                 </div>
                 <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border d-xl-block d-none" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"></span>
                 <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                     <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Years of Experience</span>
-                    <h1 class="fw-normal text-main-600 counter">8+</h1>
+                    <h1 class="fw-normal text-main-600 counter">10+</h1>
                 </div>
                 <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border d-xl-block d-none" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"></span>
                 <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                     <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Happy Students</span>
-                    <h1 class="fw-normal text-main-600 counter">500+</h1>
+                    <h1 class="fw-normal text-main-600 counter">1000+</h1>
                 </div>
                 <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border d-xl-block d-none" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"></span>
                 <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
                     <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Activities & Classes</span>
-                    <h1 class="fw-normal text-main-600 counter">25+</h1>
+                    <h1 class="fw-normal text-main-600 counter">50+</h1>
                 </div>
             </div>
         </div>

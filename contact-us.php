@@ -78,8 +78,8 @@
                         <div>
                             <span class="fw-medium tw-text-4 text-paragraph-500 tw-mb-1 d-block">Make a Quote</span>
                             <h5>
-                                <a href="mailto:sahibabad@bloomyschools.com" class="fw-semibold text-neutral-950">
-                                    sahibabad@bloomyschools.com
+                                <a href="mailto:info@bloomyschools.com" class="fw-semibold text-neutral-950">
+                                    info@bloomyschools.com
                                 </a>
                             </h5>
                         </div>
@@ -107,7 +107,7 @@
 
                                     <option value="">Select Program</option>
 
-                                    <option value="toddlers">Toddlers Club Program</option>
+                                    <option value="toddlers">Toddlers Program</option>
                                     <option value="playgroup">Play Group Program</option>
                                     <option value="nursery">Nursery Program</option>
                                     <option value="junior-kg">Junior KG</option>

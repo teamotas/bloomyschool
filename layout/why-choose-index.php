@@ -15,14 +15,14 @@
                             <div class="choose-us-musk-bg-img1 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
                                 <img src="./assets/images/icon/choose-us-icon1.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
                                 <span class="fw-medium tw-text-405 text-white tw-mb-5"> Happy Students</span>
-                                <h2 class="fw-normal text-white h1">300+</h2>
+                                <h2 class="fw-normal text-white h1">1000+</h2>
                             </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                             <div class="choose-us-musk-bg-img2 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
                                 <img src="./assets/images/icon/choose-us-icon2.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
                                 <span class="fw-medium tw-text-405 text-white tw-mb-5">Years of Experience</span>
-                                <h2 class="fw-normal text-white h1">5+</h2>
+                                <h2 class="fw-normal text-white h1">10+</h2>
                             </div>
                         </div>
                     </div>

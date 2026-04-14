@@ -215,14 +215,14 @@ $data = $programs['nursery'];
                                 English
                                 </span>
                             </div>
-                            <div class="d-flex align-items-center tw-gap-3 justify-content-between border-neutral-200 tw-pt-5">
+                        <!-- <div class="d-flex align-items-center tw-gap-3 justify-content-between border-neutral-200 tw-pt-5">
                                 <span class="fw-semibold tw-text-4 text-neutral-950">
                                 Programs Fee:
                                 </span>
                                 <span class="fw-normal tw-text-4 text-main-600">
-                                    <?= htmlspecialchars($data['fee'] ?? '-') ?>
+                                    <?= // htmlspecialchars($data['fee'] ?? '-') ?>
                                 </span>
-                            </div>
+                            </div> -->
                             <div class="tw-mt-10">
                                 <div class="w-100 d-flex justify-content-center w-100">
                                     <a href="apply-for-admission.php" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 max-w-300-px w-100" data-block="button">

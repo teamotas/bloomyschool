@@ -181,8 +181,8 @@ include('program-data.php');
                     Make a Quote
                   </span>
                   <h2 class="h5">
-                    <a href="mailto:sahibabad@bloomyschools.com" class="fw-semibold text-neutral-950" style="font-size:20px">
-                      sahibabad@bloomyschools.com
+                    <a href="mailto:info@bloomyschools.com" class="fw-semibold text-neutral-950" style="font-size:20px">
+                      info@bloomyschools.com
                     </a>
                   </h2>
                 </div>
@@ -227,3 +227,6 @@ include('program-data.php');
     <!-- ====================== footer bottom section end ====================== -->
   </footer>
   <!-- ==================== Footer End Here ==================== -->
+   
+  
+  

@@ -9,7 +9,7 @@
       <div class="logo">
         <a href="index.php" class="link">
           <img
-            src="./assets/images/logo/bloom.png"
+            src="./assets/images/logo/bloom-f.png"
             alt="Bloomy Preschool"
             class="max-w-200-px"
           >
@@ -44,7 +44,7 @@
                     <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
                         <a href="toddlers-club-program.php"
                         class="nav-submenu__link hover-bg-neutral-200 text-neutral-950 fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded hover-text-neutral-950" style="white-space:nowrap">
-                            Toddlers Club
+                            Toddlers
                         </a>
                     </li>
 

@@ -17,18 +17,18 @@
                               <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
                                   <i class="ph-fill ph-envelope-simple"></i>
                               </span>
-                              <a href="mailto:sahibabad@bloomyschools.com" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
-                                  sahibabad@bloomyschools.com
+                              <a href="mailto:info@bloomyschools.com" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
+                                  info@bloomyschools.com
                               </a>
                           </div>
-                          <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+                          <!-- <div class="d-flex align-items-center tw-gap-2 flex-wrap">
                               <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
                                   <i class="ph-fill ph-map-pin"></i>
                               </span>
                               <span class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
                                   2/100, Block-2, Sector-2, Rajendra Nagar,Sahibabad, Ghaziabad, Uttar Pradesh 201005
                               </span>
-                          </div>
+                          </div> -->
                       </div>
                   </div>
                   <div class="d-flex align-items-center tw-gap-4">
@@ -83,7 +83,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="https://www.instagram.com/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
+                                  <a href="https://www.instagram.com/bloomyschools" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
                                       <i class="ph-bold ph-instagram-logo"></i>
                                   </a>
                               </li>

@@ -7,7 +7,7 @@
 
         <div class="mobile-menu__inner">
             <a href="index.php" class="mobile-menu__logo">
-                <img src="./assets/images/logo/bloom.png" alt="Bloomy Preschool">
+                <img src="./assets/images/logo/bloom-f.png" alt="Bloomy Preschool">
             </a>
             <div class="mobile-menu__menu">
                 <!-- Nav menu Start -->
@@ -37,7 +37,7 @@
                     <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
                         <a href="toddlers-club-program.php"
                         class="nav-submenu__link hover-bg-neutral-200 text-neutral-950 fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded hover-text-neutral-950">
-                            Toddlers Club
+                            Toddlers
                         </a>
                     </li>
 

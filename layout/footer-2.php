@@ -63,8 +63,8 @@
                         Make a Quote
                         </span>
                         <h2 class="h5">
-                        <a href="mailto:sahibabad@bloomyschools.com" class="fw-semibold text-neutral-950">
-                            sahibabad@bloomyschools.com
+                        <a href="mailto:info@bloomyschools.com" class="fw-semibold text-neutral-950">
+                            info@bloomyschools.com
                         </a>
                         </h2>
                     </div>

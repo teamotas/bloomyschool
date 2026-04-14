@@ -15,8 +15,8 @@
                     <span class="tw-text-505 text-main-two-600 d-block">
                         <i class="ph-fill ph-envelope"></i>
                     </span>
-                    <a href="mailto:sahibabad@bloomyschools.com" class="fw-medium tw-text-4 text-neutral-950 hover-text-main-600 hover-underline tw-duration-300">
-                       sahibabad@bloomyschools.com
+                    <a href="mailto:info@bloomyschools.com" class="fw-medium tw-text-4 text-neutral-950 hover-text-main-600 hover-underline tw-duration-300">
+                       info@bloomyschools.com
                     </a>
                 </div>
             </div>

@@ -70,8 +70,22 @@
                         <div class="row gy-4">
 
                             <div class="col-sm-6">
-                                <input type="text" name="child_name" id="child_name"
-                                    placeholder="Child Name"
+                                <input type="text" name="name" id="name"
+                                    placeholder="Name"
+                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+                                <small class="error text-danger"></small>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <input type="email" name="email" id="email"
+                                    placeholder="Email"
+                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+                                <small class="error text-danger"></small>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <input type="text" name="phone" id="phone"
+                                    placeholder="Phone number"
                                     class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
                                 <small class="error text-danger"></small>
                             </div>
@@ -97,19 +111,6 @@
                                 <small class="error text-danger"></small>
                             </div>
 
-                            <div class="col-sm-6">
-                                <input type="email" name="email" id="email"
-                                    placeholder="Email"
-                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-                                <small class="error text-danger"></small>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <input type="text" name="phone" id="phone"
-                                    placeholder="Phone number"
-                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-                                <small class="error text-danger"></small>
-                            </div>
 
                         </div>
 
@@ -121,6 +122,83 @@
                             </span>
                         </button>
                     </form>
+
+
+                    <form id="admissionForm" action="admission-form.php" method="POST">
+
+    <?php if (isset($_GET['error'])): ?>
+        <div class="alert alert-danger">
+            <?= htmlspecialchars($_GET['error']) ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if (isset($_GET['success'])): ?>
+        <div class="alert alert-success">
+            Enquiry submitted successfully!
+        </div>
+    <?php endif; ?>
+
+    <div class="row gy-4">
+
+        <!-- Name -->
+        <div class="col-sm-6">
+            <input type="text" name="name" id="name"
+                placeholder="Full Name"
+                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+            <small class="error text-danger"></small>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-sm-6">
+            <input type="text" name="phone" id="phone"
+                placeholder="Phone Number"
+                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+            <small class="error text-danger"></small>
+        </div>
+
+        <!-- Email -->
+        <div class="col-sm-6">
+            <input type="email" name="email" id="email"
+                placeholder="Email Address"
+                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+            <small class="error text-danger"></small>
+        </div>
+
+        <!-- Select Program -->
+        <div class="col-sm-6">
+            <select name="program" id="program"
+                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+                <option value="">Select Program</option>
+                <option value="playgroup">Playgroup</option>
+                <option value="nursery">Nursery</option>
+                <option value="lkg">LKG</option>
+                <option value="ukg">UKG</option>
+                <option value="daycare">Day Care</option>
+            </select>
+            <small class="error text-danger"></small>
+        </div>
+
+        <!-- Message -->
+        <div class="col-12">
+            <textarea name="message" id="message" rows="4"
+                placeholder="Your Message"
+                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600"></textarea>
+            <small class="error text-danger"></small>
+        </div>
+
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit"
+        class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5">
+        <span class="button__flair"></span>
+        <span class="button__label">Send Your Message</span>
+        <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
+            <img src="./assets/images/icon/banner-icon-white.png" alt="icon">
+        </span>
+    </button>
+
+</form>
                 </div>
                 <div class="col-lg-6">
                     <span class="w-100">
