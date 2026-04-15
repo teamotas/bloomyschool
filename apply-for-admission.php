@@ -69,52 +69,63 @@
 
                         <div class="row gy-4">
 
+                            <!-- Name -->
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="name"
-                                    placeholder="Name"
+                                    placeholder="Full Name"
                                     class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
                                 <small class="error text-danger"></small>
                             </div>
 
-                            <div class="col-sm-6">
-                                <input type="email" name="email" id="email"
-                                    placeholder="Email"
-                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-                                <small class="error text-danger"></small>
-                            </div>
-
+                            <!-- Phone -->
                             <div class="col-sm-6">
                                 <input type="text" name="phone" id="phone"
-                                    placeholder="Phone number"
+                                    placeholder="Phone Number"
                                     class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
                                 <small class="error text-danger"></small>
                             </div>
 
+                            <!-- Email -->
                             <div class="col-sm-6">
-                                <input type="text" name="child_age" id="child_age"
-                                    placeholder="Child Age"
+                                <input type="email" name="email" id="email"
+                                    placeholder="Email Address"
                                     class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
                                 <small class="error text-danger"></small>
                             </div>
 
+                            <!-- Select Program -->
                             <div class="col-sm-6">
-                                <input type="text" name="father_name" id="father_name"
-                                    placeholder="Fathers Name"
+                                <select name="program" id="program"
                                     class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+                                    <option value="">Select Program</option>
+
+                                    <option value="toddlers">Toddlers Program</option>
+                                    <option value="playgroup">Play Group Program</option>
+                                    <option value="nursery">Nursery Program</option>
+                                    <option value="junior-kg">Junior KG</option>
+                                    <option value="senior-kg">Senior KG</option>
+                                    <option value="daycare">Day Care</option>
+                                </select>
                                 <small class="error text-danger"></small>
                             </div>
 
-                            <div class="col-sm-6">
-                                <input type="text" name="mother_name" id="mother_name"
-                                    placeholder="Mothers Name"
-                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
+                            <!-- Message -->
+                            <div class="col-12">
+                                <textarea name="message" id="message" rows="4"
+                                    placeholder="Your Message"
+                                    class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600"></textarea>
                                 <small class="error text-danger"></small>
                             </div>
-
 
                         </div>
 
-                        <button type="submit" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5">
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5 g-recaptcha "
+                            data-sitekey="6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W"
+                            data-callback="onSubmit"
+                            data-action="submit"
+                        >
                             <span class="button__flair"></span>
                             <span class="button__label">Send Your Message</span>
                             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
@@ -122,83 +133,6 @@
                             </span>
                         </button>
                     </form>
-
-
-                    <form id="admissionForm" action="admission-form.php" method="POST">
-
-    <?php if (isset($_GET['error'])): ?>
-        <div class="alert alert-danger">
-            <?= htmlspecialchars($_GET['error']) ?>
-        </div>
-    <?php endif; ?>
-
-    <?php if (isset($_GET['success'])): ?>
-        <div class="alert alert-success">
-            Enquiry submitted successfully!
-        </div>
-    <?php endif; ?>
-
-    <div class="row gy-4">
-
-        <!-- Name -->
-        <div class="col-sm-6">
-            <input type="text" name="name" id="name"
-                placeholder="Full Name"
-                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-            <small class="error text-danger"></small>
-        </div>
-
-        <!-- Phone -->
-        <div class="col-sm-6">
-            <input type="text" name="phone" id="phone"
-                placeholder="Phone Number"
-                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-            <small class="error text-danger"></small>
-        </div>
-
-        <!-- Email -->
-        <div class="col-sm-6">
-            <input type="email" name="email" id="email"
-                placeholder="Email Address"
-                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-            <small class="error text-danger"></small>
-        </div>
-
-        <!-- Select Program -->
-        <div class="col-sm-6">
-            <select name="program" id="program"
-                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600">
-                <option value="">Select Program</option>
-                <option value="playgroup">Playgroup</option>
-                <option value="nursery">Nursery</option>
-                <option value="lkg">LKG</option>
-                <option value="ukg">UKG</option>
-                <option value="daycare">Day Care</option>
-            </select>
-            <small class="error text-danger"></small>
-        </div>
-
-        <!-- Message -->
-        <div class="col-12">
-            <textarea name="message" id="message" rows="4"
-                placeholder="Your Message"
-                class="fw-normal tw-text-4 tw-py-4 tw-px-5 border tw-rounded-md bg-main-two-50 w-100 focus-visible-border-main-600"></textarea>
-            <small class="error text-danger"></small>
-        </div>
-
-    </div>
-
-    <!-- Submit Button -->
-    <button type="submit"
-        class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5">
-        <span class="button__flair"></span>
-        <span class="button__label">Send Your Message</span>
-        <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-            <img src="./assets/images/icon/banner-icon-white.png" alt="icon">
-        </span>
-    </button>
-
-</form>
                 </div>
                 <div class="col-lg-6">
                     <span class="w-100">
@@ -216,6 +150,112 @@
     <?php include('./layout/link-js.php') ?>
 
     <script>
+    const form = document.getElementById("admissionForm");
+
+    // Inputs (FIXED)
+    const nameEl = document.getElementById("name");
+    const emailEl = document.getElementById("email");
+    const phoneEl = document.getElementById("phone");
+    const programEl = document.getElementById("program");
+    const messageEl = document.getElementById("message");
+
+    let isSubmitting = false;
+
+    // ===== Helpers =====
+    function showError(input, message) {
+        const small = input.parentElement.querySelector(".error");
+        if (small) small.innerText = message;
+    }
+
+    function showSuccess(input) {
+        const small = input.parentElement.querySelector(".error");
+        if (small) small.innerText = "";
+    }
+
+    // ===== Validations =====
+    function validateName() {
+        if (!nameEl.value.trim()) {
+            showError(nameEl, "Name is required");
+            return false;
+        }
+        showSuccess(nameEl);
+        return true;
+    }
+
+    function validateEmail() {
+        const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!pattern.test(emailEl.value.trim())) {
+            showError(emailEl, "Invalid email");
+            return false;
+        }
+
+        showSuccess(emailEl);
+        return true;
+    }
+
+    function validatePhone() {
+        const pattern = /^[6-9]\d{9}$/;
+
+        if (!pattern.test(phoneEl.value.trim())) {
+            showError(phoneEl, "Invalid phone number");
+            return false;
+        }
+
+        showSuccess(phoneEl);
+        return true;
+    }
+
+    function validateProgram() {
+        if (!programEl.value) {
+            showError(programEl, "Select a program");
+            return false;
+        }
+
+        showSuccess(programEl);
+        return true;
+    }
+
+    function validateMessage() {
+        if (messageEl.value.trim().length < 5) {
+            showError(messageEl, "Minimum 5 characters required");
+            return false;
+        }
+
+        showSuccess(messageEl);
+        return true;
+    }
+
+    function validateAll() {
+        return (
+            validateName() &&
+            validateEmail() &&
+            validatePhone() &&
+            validateProgram() &&
+            validateMessage()
+        );
+    }
+
+    // ===== reCAPTCHA callback =====
+    function onSubmit(token) {
+        if (!isSubmitting) {
+            isSubmitting = true;
+            form.submit();
+        }
+    }
+
+    // ===== Submit handler =====
+    form.addEventListener("submit", function(e) {
+        if (!validateAll()) {
+            e.preventDefault();
+            return;
+        }
+
+        e.preventDefault();
+        grecaptcha.execute();
+    });
+    </script>
+    <!-- <script>
         const form = document.getElementById("admissionForm");
 
         const childName = document.getElementById("child_name");
@@ -285,6 +325,6 @@
 
             if (!valid) e.preventDefault();
         });
-    </script>
+    </script> -->
 </body>
 </html>

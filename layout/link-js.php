@@ -24,3 +24,6 @@
 <!-- main js -->
 <script src="./assets/js/main.js"></script>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- site_key   = 6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W -->
+<!-- secret_key = 6LdlEf0rAAAAAEC9ykgsw-WQWZ523c4hSjz_T-LF -->

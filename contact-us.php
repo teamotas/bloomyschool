@@ -88,6 +88,19 @@
                 <div class="col-lg-7">
                     <!-- <form action="contact-form.php" method="POST"> -->
                     <form id="contactForm" action="contact-form.php" method="POST">
+                        
+                        <?php if (isset($_GET['error'])): ?>
+                            <div class="alert alert-danger">
+                                <?= htmlspecialchars($_GET['error']) ?>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if (isset($_GET['success'])): ?>
+                            <div class="alert alert-success">
+                                Enquiry submitted successfully!
+                            </div>
+                        <?php endif; ?>
+
                         <div class="row gy-4">
                             <div class="col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                                 <input type="text" class="tw-py-3 tw-px-5 bg-main-two-50 border-neutral-100 border tw-rounded-md fw-normal tw-text-4 text-neutral-600 w-100 focus-visible-border-main-600" placeholder="Name" name="name" id="name">
@@ -121,7 +134,11 @@
                                 <textarea class="tw-py-3 tw-px-5 bg-main-two-50 border-neutral-100 border tw-rounded-md fw-normal tw-text-4 text-neutral-600 w-100 focus-visible-border-main-600 tw-h-170-px" placeholder="Your message" name="message" id="message"></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5" data-block="button" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+                        <button type="submit" class=" g-recaptcha btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5" data-block="button" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350"
+                            data-sitekey="6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W"
+                            data-callback="onSubmit"
+                            data-action="submit"    
+                        >
                             <span class="button__flair"></span>
                             <span class="button__label">Send Your Message</span>
                             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
@@ -153,7 +170,8 @@
     <?php include('./layout/footer-1.php') ?>
 
     <?php include('./layout/link-js.php') ?>
-    <script>
+
+        <script>
         const form = document.getElementById("contactForm");
 
         // Inputs
@@ -163,15 +181,17 @@
         const programEl = document.getElementById("program");
         const messageEl = document.getElementById("message");
 
-        // Helper: show error
+        // Prevent multiple submits
+        let isSubmitting = false;
+
+        // ===== Helpers =====
         function showError(input, message) {
             const small = input.parentElement.querySelector(".error");
-            small.innerText = message;
+            if (small) small.innerText = message;
             input.classList.add("input-error");
             input.classList.remove("input-success");
         }
 
-        // Helper: show success
         function showSuccess(input) {
             const small = input.parentElement.querySelector(".error");
             if (small) small.innerText = "";
@@ -179,10 +199,10 @@
             input.classList.add("input-success");
         }
 
-        // Validation functions
+        // ===== Validations =====
         function validateName() {
             let value = nameEl.value.trim();
-            if (value === "") {
+            if (!value) {
                 showError(nameEl, "Name is required");
                 return false;
             }
@@ -192,12 +212,13 @@
 
         function validateEmail() {
             let value = emailEl.value.trim();
-            let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,}$/;
 
-            if (value === "") {
+            if (!value) {
                 showError(emailEl, "Email is required");
                 return false;
-            } else if (!pattern.test(value)) {
+            }
+            if (!pattern.test(value)) {
                 showError(emailEl, "Invalid email");
                 return false;
             }
@@ -220,7 +241,7 @@
         }
 
         function validateProgram() {
-            if (programEl.value === "") {
+            if (!programEl.value) {
                 showError(programEl, "Select a program");
                 return false;
             }
@@ -241,18 +262,144 @@
             return true;
         }
 
-        // Blur (when leaving field)
-        nameEl.addEventListener("blur", validateName);
-        emailEl.addEventListener("blur", validateEmail);
-        phoneEl.addEventListener("blur", validatePhone);
-        programEl.addEventListener("blur", validateProgram);
-        messageEl.addEventListener("blur", validateMessage);
+        function validateAll() {
+            return (
+                validateName() &&
+                validateEmail() &&
+                validatePhone() &&
+                validateProgram() &&
+                validateMessage()
+            );
+        }
 
-        // Live typing (better UX)
+        // ===== EVENTS =====
         nameEl.addEventListener("input", validateName);
         emailEl.addEventListener("input", validateEmail);
         phoneEl.addEventListener("input", validatePhone);
         messageEl.addEventListener("input", validateMessage);
-    </script>
+
+        // ===== RECAPTCHA CALLBACK =====
+        function onSubmit(token) {
+            if (!isSubmitting) {
+                isSubmitting = true;
+                form.submit();
+            }
+        }
+
+        // ===== FORM SUBMIT =====
+        form.addEventListener("submit", function (e) {
+            if (!validateAll()) {
+                e.preventDefault();
+                return;
+            }
+
+            e.preventDefault();
+
+            if (!isSubmitting) {
+                grecaptcha.execute();
+            }
+        });
+        </script>
+        <!-- <script>
+            const form = document.getElementById("contactForm");
+
+            // Inputs
+            const nameEl = document.getElementById("name");
+            const emailEl = document.getElementById("email");
+            const phoneEl = document.getElementById("phone");
+            const programEl = document.getElementById("program");
+            const messageEl = document.getElementById("message");
+
+            // Helper: show error
+            function showError(input, message) {
+                const small = input.parentElement.querySelector(".error");
+                small.innerText = message;
+                input.classList.add("input-error");
+                input.classList.remove("input-success");
+            }
+
+            // Helper: show success
+            function showSuccess(input) {
+                const small = input.parentElement.querySelector(".error");
+                if (small) small.innerText = "";
+                input.classList.remove("input-error");
+                input.classList.add("input-success");
+            }
+
+            // Validation functions
+            function validateName() {
+                let value = nameEl.value.trim();
+                if (value === "") {
+                    showError(nameEl, "Name is required");
+                    return false;
+                }
+                showSuccess(nameEl);
+                return true;
+            }
+
+            function validateEmail() {
+                let value = emailEl.value.trim();
+                let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+                if (value === "") {
+                    showError(emailEl, "Email is required");
+                    return false;
+                } else if (!pattern.test(value)) {
+                    showError(emailEl, "Invalid email");
+                    return false;
+                }
+
+                showSuccess(emailEl);
+                return true;
+            }
+
+            function validatePhone() {
+                let value = phoneEl.value.trim();
+                let pattern = /^[6-9]\d{9}$/;
+
+                if (!pattern.test(value)) {
+                    showError(phoneEl, "Enter valid 10-digit phone");
+                    return false;
+                }
+
+                showSuccess(phoneEl);
+                return true;
+            }
+
+            function validateProgram() {
+                if (programEl.value === "") {
+                    showError(programEl, "Select a program");
+                    return false;
+                }
+
+                showSuccess(programEl);
+                return true;
+            }
+
+            function validateMessage() {
+                let value = messageEl.value.trim();
+
+                if (value.length < 10) {
+                    showError(messageEl, "Minimum 10 characters required");
+                    return false;
+                }
+
+                showSuccess(messageEl);
+                return true;
+            }
+
+            // Blur (when leaving field)
+            nameEl.addEventListener("blur", validateName);
+            emailEl.addEventListener("blur", validateEmail);
+            phoneEl.addEventListener("blur", validatePhone);
+            programEl.addEventListener("blur", validateProgram);
+            messageEl.addEventListener("blur", validateMessage);
+
+            // Live typing (better UX)
+            nameEl.addEventListener("input", validateName);
+            emailEl.addEventListener("input", validateEmail);
+            phoneEl.addEventListener("input", validatePhone);
+            messageEl.addEventListener("input", validateMessage);
+        </script> -->
 </body>
 </html>

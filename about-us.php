@@ -151,8 +151,8 @@
                                     <div>
                                         <span class="fw-normal tw-text-4 text-white tw-mb-1">Enroll Your Child Today</span>
                                         <h2 class="h5">
-                                            <a href="tel:+91 98101 83523" class="fw-bold text-main-two-600">
-                                                +91 98101 83523
+                                            <a href="tel:+919810865370" class="fw-bold text-main-two-600">
+                                                +91 981-086-5370
                                             </a>
                                         </h2>
                                     </div>
