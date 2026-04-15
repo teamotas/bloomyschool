@@ -3,7 +3,7 @@
   <div class="container container-two">
     <nav 
       class="d-flex align-items-center justify-content-between position-relative bg-white tw-p-6 tw-rounded-bottom-16-px" 
-      style="padding-top: 10px;  padding-bottom: 10px;"
+      style="padding: 0px;"
       >
       <!-- Logo Start -->
       <div class="logo">
