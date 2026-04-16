@@ -21,7 +21,7 @@
             <section class="py-110">
                 <div class="container">
                     <div class="text-center tw-mb-10">
-                        <span class="fw-normal tw-text-405 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Parent Testimonials</span>
+                        <span class="fw-normal tw-text-505 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Parent Testimonials</span>
                         <h2 class="fw-bold text-neutral-950 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">What Parents Say About Bloomy Preschool</h2>
                     </div>
 
@@ -47,7 +47,7 @@
                                                 <i class="ph-fill ph-star"></i>
                                             </li>
                                         </ul>
-                                        <p class="fw-medium line-height-32-px tw-text-405 text-white">Bloomy Preschool has been a wonderful experience for our child. The teachers are caring, attentive, and truly understand early childhood development. We have seen great improvement in confidence and communication.
+                                        <p class="fw-medium line-height-32-px tw-text-405 text-white">Bloomy Preschool has been a wonderful for my child. Teachers are caring, attentive for early childhood development. We have seen great confidence in communication.
                                         </p>
                                         <img src="./assets/images/icon/testimonial-icon1.png" alt="icon" class="position-absolute bottom-0 tw-end-0 tw-mb--38-px tw-me-11">
                                     </div>

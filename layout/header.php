@@ -1,9 +1,9 @@
     <!-- ==================== Header Start Here ==================== -->
     <header class="header bg-main-two-200 tw-transition-all tw-z-99">
     <div class="container container-two">
-        <nav
-        class="d-flex align-items-center justify-content-between position-relative bg-white tw-p-6 tw-rounded-2xl"
-        style="padding-top: 10px;  padding-bottom: 10px;">
+    <!-- <nav class="d-flex align-items-center justify-content-between position-relative bg-white tw-p-6 tw-rounded-2xl"> -->
+      <nav class="d-flex align-items-center justify-content-between position-relative bg-white p-0 p-sm-2 tw-rounded-2xl">
+
         <!-- Logo Start -->
         <div class="logo">
             <a href="index.php" class="link">

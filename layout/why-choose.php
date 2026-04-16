@@ -3,8 +3,8 @@
         <div class="container">
             <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap tw-mb-14">
                 <div>
-                    <span class="fw-normal tw-text-405 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Why Choose Bloomy Preschool</span>
-                    <h2 class="fw-bold text-neutral-950 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <span class="fw-normal tw-text-505 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Why Choose Bloomy Preschool</span>
+                    <h2 class="fw-bold text-neutral-950 h7" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                         Giving Your Child the Best Start in Early Learning</h2>
                 </div>
                 <!-- <div>
@@ -60,7 +60,7 @@
                         </span>
                         <div class="position-absolute bottom-0 tw-start-0 w-100">
                             <div class="d-flex align-items-center tw-gap-3 w-100 tw-px-3 justify-content-center">
-                                <span class="h1 fw-normal text-white counter">5+</span>
+                                <span class="h1 fw-normal text-white counter">10+</span>
                                 <p class="fw-semibold tw-text-405 text-white">
                                     
                                     Years of Experience<br> in Early Childhood Education

@@ -14,50 +14,123 @@
   <!-- ✅ Font Awesome (required for icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <style>
-    /* Sidebar container */
-    .social-sidebar {
-      position: fixed;
-      top: 35vh;
-      left: 0;
-      z-index: 9999; /* 🔥 ensures it's above everything */
-    }
 
-    /* Each social item */
-    .social {
-      display: block;
-      width: 240px;
-      margin-left: -190px;
-      padding: 12px 16px;
-      color: #fff;
-      font-size: 14px;
-      font-family: sans-serif;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
+<style>
+/* Sidebar */
+.social-sidebar {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  z-index: 9999;
+}
 
-    /* Hover slide effect */
-    .social:hover {
-      margin-left: 0;
-    }
+/* Each item */
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 12px 16px;
+  margin: 4px 0;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: none;
 
-    /* Icon styling */
-    .social i {
-      float: right;
-      font-size: 18px;
-    }
+  /* hidden state */
+  transform: translateX(155px);
+  transition: transform 0.3s ease;
 
-    /* Colors */
-    .facebook { background: #1877f2; }
-    .twitter { background: #1da1f2; }
-    .linkedin { background: #0077b5; }
-    .youtube { background: #ff0000; }
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
-    /* Links reset */
-    .social a {
-      color: white;
-      text-decoration: none;
-      display: block;
-    }
-  </style>
+/* Hover (ONLY THIS ITEM moves) */
+.social:hover {
+  transform: translateX(0);
+}
+
+/* Icon */
+.social i {
+  font-size: 18px;
+}
+
+/* Colors */
+.facebook { background: #1877f2; }
+.twitter { background: #1da1f2; }
+.linkedin { background: #0077b5; }
+.instagram { background: #e1306c; }
+.youtube { background: #ff0000; }
+
+/* Link reset */
+.social a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* gap: 8px; */
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
+<style>
+  /* Left floating contact buttons */
+.contact-float {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Button base */
+.contact-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp {
+  width: 52.5px;
+  height: 52.5px;
+}
+
+.whatsapp i {
+  font-size: 28px;
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #25D366;
+}
+
+/* Call */
+.call {
+  background: #007bff;
+}
+
+/* Mobile size */
+@media (max-width: 768px) {
+  .contact-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+}
+</style>
+
 

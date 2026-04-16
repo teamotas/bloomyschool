@@ -829,7 +829,7 @@ h6, .h6 {
 }
 
 h1, .h1 {
-    font-size: var(--heading-one);
+    font-size: var(--heading-four);
 }
 
 h2, .h2 {
@@ -842,6 +842,9 @@ h3, .h3 {
 
 h4, .h4 {
     font-size: var(--heading-four);
+}
+.h7 {
+    font-size: 2.8rem;
 }
 
 h5, .h5 {
@@ -2574,7 +2577,7 @@ input:focus, input:focus-visible {
 }
 
 .tw-text-405 {
-    font-size: 1.125rem;
+    font-size: 1.025rem;
 }
 
 .tw-text-5 {
@@ -2920,6 +2923,13 @@ input:focus, input:focus-visible {
 
 .tw-gap-8 {
     gap: var(--size-8);
+}
+
+
+@media (max-width: 576px) {
+    .tw-gap-9 {
+        gap: var(--size-4); /* smaller gap on mobile */
+    }
 }
 
 .tw-gap-9 {
@@ -5474,8 +5484,8 @@ input:focus, input:focus-visible {
 
 @media (min-width: 992px) {
     .py-110 {
-        padding-block-start: 110px;
-        padding-block-end: 110px;
+        padding-block-start: 50px;
+        padding-block-end: 50px;
     }
 }
 
@@ -5752,7 +5762,8 @@ input:focus, input:focus-visible {
 
 /* Border Radius Css End */
 .tw-rounded-bottom-16-px {
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 25px 25px;
+    padding:0 30px;
 }
 
 .tw-rounded-left-top-right-bottom {

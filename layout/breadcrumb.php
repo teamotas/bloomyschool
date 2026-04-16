@@ -10,7 +10,7 @@ $breadcrumbs = $breadcrumbs ?? [
 <!-- ==================== Breadcrumb Start Here ==================== -->
 <section class="breadcrumb pt-110 pb-70 bg-main-two-200 position-relative">
     <img src="./assets/images/shape/banner-shape2.png" class="position-absolute bottom-0 tw-start-0 w-100">
-    <img src="./assets/images/shape/newslater-three-shape1.png" class="position-absolute top-0 tw-end-0 tw-mt-15 d-lg-block d-none animation-upDown">
+    <img src="./assets/images/bloomy/Png-05.png" class="position-absolute top-0 tw-end-0 tw-mt-15 d-lg-block d-none animation-upDown" style="width: 200px; height:300px">
     <img src="./assets/images/shape/newslater-three-shape2.png" class="position-absolute bottom-0 tw-start-0 tw-h-382-px tw-ms-250-px d-lg-block d-none">
     <img src="./assets/images/shape/newsletter-shape2.png" class="position-absolute top-0 tw-start-0 tw-mt-130-px tw-ms-480-px animation-rotate-right d-xl-block d-none">
 

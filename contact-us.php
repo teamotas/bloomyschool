@@ -40,13 +40,247 @@
     ?>
     <!-- =========================== contact us section start =========================== -->
     <section class="py-110">
-        <div class="container">
-            <div class="tw-mb-15">
-                <span class="fw-normal tw-text-405 text-main-600 tw-mb-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Contact Us</span>
-                <h4 class="fw-bold text-neutral-950" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Contact Us For Your Kids Day Care</h4>
+        <style>
+            .branch-card {
+                position: relative;
+                background: linear-gradient(145deg, #ffffff, #fff8e6);
+                border-radius: 18px;
+                overflow: hidden;
+                transition: all 0.35s ease;
+                border: 1px solid rgba(0,0,0,0.05);
+            }
+
+            /* Glow border effect */
+            .branch-card::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                border-radius: inherit;
+                padding: 1px;
+                background: linear-gradient(120deg, #F9B001, #FC4525, #ff9f43);
+                -webkit-mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+                opacity: 0.4;
+                transition: 0.4s;
+            }
+
+            /* Inner glow */
+            .branch-card::after {
+                content: "";
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(255,176,1,0.15), transparent 60%);
+                opacity: 0;
+                transition: 0.5s;
+            }
+
+            /* Hover effects */
+            .branch-card:hover {
+                transform: translateY(-10px) scale(1.01);
+                box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+            }
+
+            .branch-card:hover::before {
+                opacity: 1;
+            }
+
+            .branch-card:hover::after {
+                opacity: 1;
+            }
+
+            /* Typography polish */
+            .branch-card h5 {
+                letter-spacing: 0.3px;
+            }
+
+            .branch-card p {
+                font-size: 14.5px;
+                line-height: 1.6;
+            }
+
+            .social-icons a {
+                width: 42px;
+                height: 42px;
+                border-radius: 12px;
+                background: linear-gradient(135deg, #f5f5f5, #ffffff);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #444;
+                font-size: 15px;
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+            }
+
+            /* Glow ripple (like your button flair) */
+            .social-icons a::before {
+                content: "";
+                position: absolute;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(255,176,1,0.4), transparent 60%);
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0);
+                transition: 0.4s ease;
+            }
+
+            .social-icons a:hover::before {
+                transform: translate(-50%, -50%) scale(1);
+            }
+
+            .social-icons a:hover {
+                color: #fff;
+                background: linear-gradient(135deg, #F9B001, #FC4525);
+                transform: translateY(-4px);
+            }
+            .branch-card::before,
+            .branch-card::after {
+                pointer-events: none;
+            }
+        </style>
+        <div class="container tw-mb-15">
+            <div class="">
+                <span class="fw-normal tw-text-505 text-main-600 tw-mb-0" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Our Branches</span>
+                <h3 class="fw-bold h7">Visit Our Locations</h3>
+                <p class="text-muted tw-mb-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    We are available at multiple locations to serve you better</p>
             </div>
             <div class="row gy-4">
-                <div class="col-lg-5">
+
+                <!-- Branch 1 -->
+                <div class="col-lg-6">
+                    <div class="branch-card p-4 border rounded-3 shadow-sm h-100">
+
+                        <h5 class="fw-bold text-main-600 mb-3">
+                            <i class="fa-solid fa-location-dot me-2"></i> Sahibabad Branch
+                        </h5>
+
+                        <p class="mb-2">
+                            <i class="fa-solid fa-tty me-2"></i> 0120-4160100
+                        </p>
+
+                        <p class="mb-2">
+                            <i class="fa-solid fa-phone me-2 text-success"></i>
+                            <a href="tel:+919810183523">98101 83523</a> /
+                            <a href="tel:+919810865370">98108 65370</a>
+                        </p>
+
+                        <p class="mb-3">
+                            <i class="fa-solid fa-envelope me-2 text-danger"></i>
+                            <a href="mailto:sahibabad@bloomyschools.com">
+                                sahibabad@bloomyschools.com
+                            </a>
+                        </p>
+
+                        <p class="text-muted mb-3">
+                            <i class="fa-solid fa-map me-2"></i>
+                            2/100 Sector-2 Rajendra Nagar, Opp. Ekta Park, Near SM World,<br>
+                            Sahibabad, Ghaziabad - 201005
+                        </p>
+                        
+                        <div class="d-flex gap-3 flex-wrap social-icons">
+                            
+                            <a href="https://www.bloomyschools.com" target="_blank" title="Website">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/bloomyschools/" target="_blank" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/bloomyschools" target="_blank" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="https://youtube.com/@bloomyschools" target="_blank" title="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="https://x.com/bloomyschools" target="_blank" title="Twitter">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Branch 2 -->
+                <div class="col-lg-6">
+                    <div class="branch-card p-4 border rounded-3 shadow-sm h-100">
+
+                        <h5 class="fw-bold text-main-600 mb-3">
+                            <i class="fa-solid fa-location-dot me-2"></i> Rajendra Nagar Branch
+                        </h5>
+
+                        <p class="mb-2">
+                            <i class="fa-solid fa-tty me-2"></i> 0120-4112094
+                        </p>
+
+                        <p class="mb-2">
+                            <i class="fa-solid fa-phone me-2 text-success"></i>
+                            <a href="tel:+919311666157">93116 66157</a> /
+                            <a href="tel:+918595059818">85950 59818</a>
+                        </p>
+
+                        <p class="mb-3">
+                            <i class="fa-solid fa-envelope me-2 text-danger"></i>
+                            <a href="mailto:rajendranagar@bloomyschools.com">
+                                rajendranagar@bloomyschools.com
+                            </a>
+                        </p>
+
+                        <p class="text-muted mb-3">
+                            <i class="fa-solid fa-map me-2"></i>
+                            3/36 Sector-5 Rajendra Nagar, Near Mother Dairy Booth,<br>
+                            Sahibabad, Ghaziabad - 201005
+                        </p>
+
+                        <div class="d-flex gap-3 flex-wrap social-icons">
+                            
+                            <a href="https://www.bloomyschools.com" target="_blank">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/bloomyschools.rajendranagar" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/bloomyschools.rajendranagar" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="https://youtube.com/@bloomyschools.rajendranagar" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="https://x.com/bloomy_rajendra" target="_blank">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container tw-mt-50 ms-auto me-auto">
+            <div class="tw-mb-15">
+                <span class="fw-normal tw-text-505 text-main-600 tw-mb-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Contact Us</span>
+                <h4 class="fw-bold text-neutral-950 h7" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Contact Us For Your Kids Day Care</h4>
+            </div>
+            <div class="row gy-4">
+                <!-- <div class="col-lg-5">
                     <div class="d-flex align-items-center tw-gap-3 tw-mb-10" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <span class="tw-w-15 tw-h-15 bg-main-600 text-white d-flex align-items-center justify-content-center rounded-circle tw-text-7">
                             <i class="ph-fill ph-phone"></i>
@@ -84,7 +318,8 @@
                             </h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                
                 <div class="col-lg-7">
                     <!-- <form action="contact-form.php" method="POST"> -->
                     <form id="contactForm" action="contact-form.php" method="POST">
@@ -149,6 +384,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
     <!-- =========================== contact us section end =========================== -->
 
@@ -300,106 +536,5 @@
             }
         });
         </script>
-        <!-- <script>
-            const form = document.getElementById("contactForm");
-
-            // Inputs
-            const nameEl = document.getElementById("name");
-            const emailEl = document.getElementById("email");
-            const phoneEl = document.getElementById("phone");
-            const programEl = document.getElementById("program");
-            const messageEl = document.getElementById("message");
-
-            // Helper: show error
-            function showError(input, message) {
-                const small = input.parentElement.querySelector(".error");
-                small.innerText = message;
-                input.classList.add("input-error");
-                input.classList.remove("input-success");
-            }
-
-            // Helper: show success
-            function showSuccess(input) {
-                const small = input.parentElement.querySelector(".error");
-                if (small) small.innerText = "";
-                input.classList.remove("input-error");
-                input.classList.add("input-success");
-            }
-
-            // Validation functions
-            function validateName() {
-                let value = nameEl.value.trim();
-                if (value === "") {
-                    showError(nameEl, "Name is required");
-                    return false;
-                }
-                showSuccess(nameEl);
-                return true;
-            }
-
-            function validateEmail() {
-                let value = emailEl.value.trim();
-                let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-
-                if (value === "") {
-                    showError(emailEl, "Email is required");
-                    return false;
-                } else if (!pattern.test(value)) {
-                    showError(emailEl, "Invalid email");
-                    return false;
-                }
-
-                showSuccess(emailEl);
-                return true;
-            }
-
-            function validatePhone() {
-                let value = phoneEl.value.trim();
-                let pattern = /^[6-9]\d{9}$/;
-
-                if (!pattern.test(value)) {
-                    showError(phoneEl, "Enter valid 10-digit phone");
-                    return false;
-                }
-
-                showSuccess(phoneEl);
-                return true;
-            }
-
-            function validateProgram() {
-                if (programEl.value === "") {
-                    showError(programEl, "Select a program");
-                    return false;
-                }
-
-                showSuccess(programEl);
-                return true;
-            }
-
-            function validateMessage() {
-                let value = messageEl.value.trim();
-
-                if (value.length < 10) {
-                    showError(messageEl, "Minimum 10 characters required");
-                    return false;
-                }
-
-                showSuccess(messageEl);
-                return true;
-            }
-
-            // Blur (when leaving field)
-            nameEl.addEventListener("blur", validateName);
-            emailEl.addEventListener("blur", validateEmail);
-            phoneEl.addEventListener("blur", validatePhone);
-            programEl.addEventListener("blur", validateProgram);
-            messageEl.addEventListener("blur", validateMessage);
-
-            // Live typing (better UX)
-            nameEl.addEventListener("input", validateName);
-            emailEl.addEventListener("input", validateEmail);
-            phoneEl.addEventListener("input", validatePhone);
-            messageEl.addEventListener("input", validateMessage);
-        </script> -->
 </body>
 </html>

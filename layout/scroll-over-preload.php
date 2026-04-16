@@ -34,31 +34,43 @@
     <span class="dot"></span>
     <!-- Custom Cursor End -->
 
-    <!-- ✅ Social Sidebar -->
-    <div class="social-sidebar">
+    <!-- Social Sidebar -->
+<!-- Sidebar -->
+<div class="social-sidebar">
 
-        <div class="social facebook">
-            <a href="https://facebook.com" target="_blank">
-            Like on Facebook <i class="fab fa-facebook-f"></i>
-            </a>
-        </div>
+  <div class="social facebook">
+    <a href="https://facebook.com/bloomyschools/" target="_blank">
+      <span>Like on Facebook</span>
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
 
-        <div class="social twitter">
-            <a href="https://twitter.com" target="_blank">
-            Follow on Twitter <i class="fab fa-twitter"></i>
-            </a>
-        </div>
+  <div class="social twitter">
+    <a href="https://x.com/bloomyschools/" target="_blank">
+      <span>Follow on Twitter</span>
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
 
-        <div class="social linkedin">
-            <a href="https://linkedin.com" target="_blank">
-            Connect on LinkedIn <i class="fab fa-linkedin-in"></i>
-            </a>
-        </div>
+  <!-- <div class="social linkedin">
+    <a href="https://linkedin.com/" target="_blank">
+      <span>Connect on LinkedIn</span>
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </div> -->
 
-        <div class="social youtube">
-            <a href="https://youtube.com" target="_blank">
-            Subscribe on YouTube <i class="fab fa-youtube"></i>
-            </a>
-        </div>
+  <div class="social instagram">
+    <a href="https://instagram.com/bloomyschools/" target="_blank">
+      <span>Follow on Instagram</span>
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
 
-    </div>
+  <div class="social youtube">
+    <a href="https://youtube.com/" target="_blank">
+      <span>Subscribe on YouTube</span>
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+
+</div>

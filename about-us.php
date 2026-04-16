@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="d-flex align-items-end tw-gap-5 flex-wrap">
                     <div class="">
-                        <h2 class="fw-bold text-white tw-mb-10 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <h2 class="fw-bold text-white tw-mb-10 h7" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                             Building Strong Foundations for Your Child’s Bright Future
                         </h2>
                         <div class="d-flex align-items-center tw-gap-4 flex-wrap" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
@@ -151,7 +151,7 @@
                                     <div>
                                         <span class="fw-normal tw-text-4 text-white tw-mb-1">Enroll Your Child Today</span>
                                         <h2 class="h5">
-                                            <a href="tel:+919810865370" class="fw-bold text-main-two-600">
+                                            <a href="tel:+919810865370" class="fw-bold text-main-two-600" style="color: white;">
                                                 +91 981-086-5370
                                             </a>
                                         </h2>
@@ -177,7 +177,7 @@
 
     <div class="container"> 
         <div class="tw-mt-6 position-relative">
-            <img src="./assets/images/shape/about-us-shape-1.png" alt="shape" class="position-absolute bottom-0 tw-end-0 d-xl-block d-none">
+            <!-- <img src="./assets/images/bloomy/Png-05.png" alt="shape" class="position-absolute bottom-0 tw-end-50 d-xl-block d-none" style="width: 300px;"> -->
             <div class="d-flex align-items-center tw-gap-15 flex-wrap">
                 <div class="d-flex align-items-center tw-gap-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <span>
@@ -217,7 +217,7 @@
                             <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-3 d-block">
                                 Experienced Teachers
                             </span>
-                            <h3 class="fw-normal text-main-600 counter">10+</h3>
+                            <h4 class="fw-normal text-main-600 counter">25+</h4>
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                             <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-3 d-block">
                                 Years of Experience
                             </span>
-                            <h3 class="fw-normal text-main-600 counter">5+</h3>
+                            <h4 class="fw-normal text-main-600 counter">10+</h4>
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                             <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-3 d-block">
                                 Happy Students
                             </span>
-                            <h3 class="fw-normal text-main-600 counter">400+</h3>
+                            <h4 class="fw-normal text-main-600 counter">1000+</h4>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                             <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-3 d-block">
                                 Activities & Programs
                             </span>
-                            <h3 class="fw-normal text-main-600 counter">15+</h3>
+                            <h4 class="fw-normal text-main-600 counter">50+</h4>
                         </div>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
     <section class="py-110 ">
         <div class="container">
             <div class="tw-mb-4">
-                <span class="fw-normal tw-text-405 text-main-600 tw-mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Our Gallery</span>
+                <span class="fw-normal tw-text-505 text-main-600 tw-mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Our Gallery</span>
                 <h4 class="fw-bold text-neutral-950" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">View Our Image and Gallery</h4>
             </div>
             <div>
@@ -378,10 +378,10 @@
                 <img src="./assets/images/shape/get-start-three-shape-one.png" alt="shape" class="position-absolute bottom-0 tw-end-0 z-n1 tw-me-200-px d-xl-block d-none">
                 <img src="./assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 animation-upDown d-xl-block d-none tw-ms-220-px">
 
-                <div class="pt-110 tw-pb-180-px">
+                <div class="pt-110" style="padding:100px ;">
                     <div class="max-w-500-px w-100 mx-auto text-center position-relative">
                         <img src="./assets/images/shape/get-start-three-shape-two.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb--100-px tw-me-124-px d-xl-block d-none">
-                        <span class="text-white fw-normal tw-text-405 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <span class="text-white fw-normal tw-text-505 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                             Start Your Child’s Journey
                         </span>
                         <h2 class="fw-bold text-white tw-mb-5 h4" style="font-size:40px" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">

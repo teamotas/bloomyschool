@@ -5,8 +5,8 @@
             <div class="row gy-5">
                 <div class="col-xl-6">
                     <div class="tw-mb-10">
-                        <span class="fw-normal tw-text-405 text-main-600 tw-mb-5" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Why Choose Bloomy Preschool</span>
-                        <h2 class="fw-bold text-neutral-950 tw-mb-5 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">The Best Preschool for Your Child’s Early Growth & Development</h2>
+                        <span class="fw-normal tw-text-505 text-main-600 tw-mb-5" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Why Choose Bloomy Preschool</span>
+                        <h2 class="fw-bold text-neutral-950 tw-mb-5 h7" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">The Best Preschool for Your Child’s Early Growth & Development</h2>
                         <p class="fw-normal tw-text-4 text-paragraph-500" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">At Bloomy Preschool, we provide a safe, nurturing, and stimulating environment where children learn through play, creativity, and exploration. Our experienced educators focus on building strong foundations in learning, confidence, and social skills—ensuring your child is ready for a bright future.
                         </p>
                     </div>
@@ -46,8 +46,8 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                                 <div class="bg-primary-100 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
                                     <img src="./assets/images/icon/choose-us-icon4.png" alt="icon" class="tw-mb-5 animate__bounce d-block">
-                                    <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Experienced & Caring Teachers</span>
-                                    <p class="fw-normal text-paragraph-500">Our trained educators understand early childhood development and provide personalized attention to every child, ensuring emotional and academic growth.
+                                    <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Experienced Teachers</span>
+                                    <p class="fw-normal text-paragraph-500">Our educators provide personalized attention, supporting each child’s emotional well-being and early learning for strong development.
                                 </p>
                                 </div>
                             </div>

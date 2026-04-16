@@ -1,10 +1,11 @@
 <!-- ==================== Header Start Here ==================== -->
 <header class="header bg-main-two-200 tw-transition-all tw-z-99">
   <div class="container container-two">
-    <nav 
+    <!-- <nav 
       class="d-flex align-items-center justify-content-between position-relative bg-white tw-p-6 tw-rounded-bottom-16-px" 
-      style="padding: 0px;"
-      >
+      
+      > -->
+      <nav class="d-flex align-items-center justify-content-between position-relative bg-white p-0 p-sm-2 tw-rounded-bottom-16-px">
       <!-- Logo Start -->
       <div class="logo">
         <a href="index.php" class="link">

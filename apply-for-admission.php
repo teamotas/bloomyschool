@@ -43,15 +43,15 @@
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <div class="tw-mb-12">
-                        <span class="fw-normal tw-text-405 text-main-600 tw-mb-6">
+                        <span class="fw-normal tw-text-505 text-main-600 tw-mb-6">
                             Admission Open 2026-27
                         </span>
-                        <h4 class="fw-bold text-neutral-950 tw-mb-4">
+                        <h4 class="fw-bold text-neutral-950 tw-mb-4 h7">
                             Apply for Your Child’s Bright Future
                         </h4>
-                        <p class="fw-normal tw-text-4 text-paragraph-500">
+                        <!-- <p class="fw-normal tw-text-4 text-paragraph-500">
                             Enroll your child in a safe, nurturing, and engaging learning environment. Our programs are designed to build strong foundations through fun-based learning, creativity, and care.
-                        </p>
+                        </p> -->
                     </div>
                     <form id="admissionForm" action="admission-form.php" method="POST">
 

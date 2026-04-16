@@ -220,7 +220,7 @@ $data = $programs['nursery'];
                                 Programs Fee:
                                 </span>
                                 <span class="fw-normal tw-text-4 text-main-600">
-                                    <?= // htmlspecialchars($data['fee'] ?? '-') ?>
+                                    <?= htmlspecialchars($data['fee'] ?? '-') ?>
                                 </span>
                             </div> -->
                             <div class="tw-mt-10">

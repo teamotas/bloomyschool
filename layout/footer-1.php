@@ -1,12 +1,14 @@
 <?php
-include('program-data.php');
-
-// $data = $programs['toddlers'];
+// include('../program-data.php');
+include(__DIR__ . '/../program-data.php');
+// $data = $programs[0] ?? null;
 ?>
   <!-- ==================== Footer Start Here ==================== -->
   <footer class="footer bg-main-two-300 position-relative z-2">
     <img src="./assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
-    <img src="./assets/images/shape/footer-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown">
+    <!-- <img src="./assets/images/shape/footer-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown"> -->
+    <img src="./assets/images/bloomy/Png-05.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown" style="width: 200px; height: 300px;">
+    
     <img src="./assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-200-px tw-me-130-px d-xl-block d-none z-n1 animation-upDown">
     <img src="./assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb-242-px tw-me-130-px d-xl-block d-none z-n1 animation-scalation">
     <div class="py-110">
@@ -124,6 +126,7 @@ include('program-data.php');
                     </div>
                 </div>
             </div> -->
+            
             <div class="col-xl-3 col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
               <div>
                 <h2 class="fw-bold text-neutral-950 h5">Our Programs</h2>
@@ -133,7 +136,7 @@ include('program-data.php');
 
                   <?php foreach($programs as $program): ?>
                     
-                    <a href="<?= htmlspecialchars($program['slug'] ?? '#') ?>" 
+                    <a href="<?= htmlspecialchars($program['url'] ?? '#') ?>" 
                       class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300">
 
                       <span class="tw-text-405">
@@ -164,8 +167,8 @@ include('program-data.php');
                     Call Us 24/7
                   </span>
                   <h2 class="h5">
-                    <a href="tel:+91 98101 83523 " class="fw-semibold text-neutral-950" style="font-size:20px">
-                      +91 98101 83523 
+                    <a href="tel:+919810865370" class="fw-semibold text-neutral-950" style="font-size:20px">
+                      +91 981-086-5370
                     </a>
                   </h2>
                 </div>
@@ -188,7 +191,7 @@ include('program-data.php');
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
               <div class="d-flex align-items-center tw-gap-4 flex-wrap">
                 <span class="tw-w-15 tw-h-15 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
                   <img src="./assets/images/icon/footer-icon3.png" alt="icon">
@@ -203,7 +206,7 @@ include('program-data.php');
                 </div>
               </div>
             </div>
-            <div class="col-lg-1"></div>
+            <!-- <div class="col-xl-1"></div> -->
           </div>
         </div>
       </div>

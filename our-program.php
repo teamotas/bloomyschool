@@ -107,10 +107,10 @@ include('program-data.php');
                                     </a>
 
                                     <!-- PRICE -->
-                                    <span class="fw-bold tw-text-5 text-white tw-py-2 tw-px-4"
+                                    <!-- <span class="fw-bold tw-text-5 text-white tw-py-2 tw-px-4"
                                         style="background:#ff7a00;border-radius:10px;">
                                         <?= htmlspecialchars($program['fee']) ?>
-                                    </span>
+                                    </span> -->
 
                                 </div>
 

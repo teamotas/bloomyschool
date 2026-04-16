@@ -27,3 +27,20 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- site_key   = 6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W -->
 <!-- secret_key = 6LdlEf0rAAAAAEC9ykgsw-WQWZ523c4hSjz_T-LF -->
+
+
+
+<!-- Floating Contact Buttons -->
+<div class="contact-float">
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919810865370" target="_blank" class="contact-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call -->
+  <a href="tel:9810865370" class="contact-btn call">
+    <i class="fas fa-phone"></i>
+  </a>
+
+</div>

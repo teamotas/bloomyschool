@@ -3,14 +3,14 @@
       <div class="container">
           <div class="tw-pt-6 tw-pb-4 tw-px-6 border-bottom border-neutral-400 border-top-0 border-start-0 border-end-0 tw-border-dashed">
               <div class="d-flex align-items-center tw-gap-3 justify-content-between">
-                  <div class="d-xxl-block d-none">
+                  <div class="d-xl-block d-none">
                       <div class="d-flex align-items-center tw-gap-6">
                           <div class="d-flex align-items-center tw-gap-2 flex-wrap">
                               <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
                                   <i class="ph-fill ph-phone"></i>
                               </span>
-                              <a href="tel:+1.809.659.8654" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
-                                  +1.809.659.8654
+                              <a href="tel:+919810865370" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
+                                 +91 981-086-5370 
                               </a>
                           </div>
                           <div class="d-flex align-items-center tw-gap-2 flex-wrap">
@@ -69,8 +69,8 @@
                               </select>
                           </div>
                       </div> -->
-                      <div class="d-sm-block d-none">
-                          <ul class="d-flex align-items-center tw-gap-3">
+                     <div class="d-flex justify-content-center justify-content-sm-end ">
+                        <ul class="d-flex align-items-center tw-gap-3">
                               <li>
                                   <a href="https://www.facebook.com/bloomyschools/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
                                       <i class="ph-fill ph-facebook-logo"></i>

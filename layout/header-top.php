@@ -2,13 +2,13 @@
  <div class="tw-py-3 bg-main-two-200">
     <div class="container">
         <div class="d-flex align-items-center tw-gap-5 justify-content-between">
-            <div class="d-flex align-items-center tw-gap-9 flex-wrap">
+            <div class="d-flex align-items-center tw-gap-4 flex-wrap">
                 <div class="d-flex align-items-center tw-gap-2">
                     <span class="tw-text-505 text-main-600 d-block">
                         <i class="ph-fill ph-phone"></i>
                     </span>
-                    <a href="tel:+91 98101 83523 " class="fw-medium tw-text-4 text-neutral-950 hover-text-main-600 hover-underline tw-duration-300">
-                        +91 98101 83523 
+                    <a href="tel:+919810865370" class="fw-medium tw-text-4 text-neutral-950 hover-text-main-600 hover-underline tw-duration-300">
+                        +91 981-086-5370
                     </a>
                 </div>
                 <div class="d-flex align-items-center tw-gap-2">
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="d-flex align-items-center tw-gap-9 ">
-              <div class="d-xl-block d-none">
+              <!-- <div class="d-xl-block d-none">
                 <div class="d-flex align-items-center tw-gap-2">
                   <span class="tw-text-505 text-pink-600 d-block">
                     <i class="ph-fill ph-map-pin-area"></i>
@@ -30,7 +30,7 @@
                     2/100, Block-2, Sector-2, Rajendra Nagar,Sahibabad, Ghaziabad, Uttar Pradesh 201005
                   </span>
                 </div>
-              </div>
+              </div> -->
               <div class="d-lg-block d-none">
                 <ul class="d-flex align-items-center tw-gap-3">
                 <li>
