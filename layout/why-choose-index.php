@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <span class="d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
-                            <img src="./assets/images/thumbs/why-choose-1.png" alt="img" class="tw-mt-5">
+                            <img src="./assets/images/index/why-choose-bloomy-preschool.png" alt="img" class="tw-mt-5">
                         </span>
                     </div>
                 </div>

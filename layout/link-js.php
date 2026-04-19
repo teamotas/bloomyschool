@@ -2,6 +2,8 @@
 <script src="./assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
 <script src="./assets/js/phosphor-icon.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" ></script>
+ 
 <!-- Bootstrap Bundle Js -->
 <script src="./assets/js/boostrap.bundle.min.js"></script>
 <!-- swiper js -->

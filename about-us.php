@@ -129,7 +129,7 @@
     </div> -->
 
     <!-- ============================ about us section start ============================ -->
-    <section style="background-image: url(assets/images/bg/bg-bloom.png);" class="bg-img">
+    <section style="background-image: url(assets/images/index/bloomy-cta-index.png);" class="bg-img">
         <div class="pb-120 tw-pt-396-px">
             <div class="container">
                 <div class="d-flex align-items-end tw-gap-5 flex-wrap">

@@ -136,7 +136,7 @@
                 </div>
                 <div class="col-lg-6">
                     <span class="w-100">
-                        <img src="./assets/images/thumbs/apply-asmission-img.png" alt="img" class="w-100">
+                        <img src="./assets/images/index/apply-asmission-img.png" alt="img" class="w-100">
                     </span>
                 </div>
             </div>

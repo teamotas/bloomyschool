@@ -7,17 +7,17 @@ $programs = [
         "title" => "Toddlers Program in Sahibabad | Bloomy Preschool & Daycare",
         "breadcrumb"=>"Toddlers ",
         "url" => "toddlers-club-program.php",
-        "image" => "./assets/images/thumbs/1.png",
+        "image" => "./assets/images/bloomy-program-detail/toddlers.png",
 
         "meta_desc" => "Best toddlers program in Sahibabad at Bloomy Preschool. Safe daycare, sensory play, early learning for 1.5 to 3 years kids.",
         "meta_keywords" => "toddler program Sahibabad, daycare near me, preschool Ghaziabad, kids daycare",
 
-        "desc1" => "Bloomy Preschool offers a nurturing toddlers program in Sahibabad designed for children aged 1.5 to 3 years. We focus on sensory activities, play-based learning and emotional development in a safe environment.",
+        "desc1" => "Bloomy Preschool offers a nurturing toddlers program in Sahibabad designed for children aged 1.5 to 3 years.",
         "desc2" => "Our program helps toddlers build communication, motor skills and social confidence through music, storytelling and guided play.",
 
         "requirements_head" => "This program supports early childhood development through structured and engaging activities.",
         "requirements" => [
-            "Age 1.5 to 3 years",
+            "Age 1.0 to 1.8 years",
             "Basic comfort with environment",
             "Personal hygiene items",
             "Parental support initially"
@@ -25,7 +25,7 @@ $programs = [
 
         "goal" => "To develop early learning, confidence and social interaction in a safe and happy environment.",
 
-        "age" => "1 - 2 years",
+        "age" => "1.0 - 1.8 years",
         "time" => "3 Hours",
         "days" => "Monday - Friday",
         // "fee" => "₹2500"
@@ -35,7 +35,7 @@ $programs = [
         "title" => "Playgroup in Sahibabad | Bloomy Preschool",
         "breadcrumb"=>"Playgroup ",
         "url" => "play-group-program.php",
-        "image" => "./assets/images/thumbs/2.png",
+        "image" => "./assets/images/bloomy-program-detail/playgroup.png",
 
         "meta_desc" => "Playgroup in Sahibabad with fun-based learning, communication skills and activities at Bloomy Preschool.",
         "meta_keywords" => "playgroup Sahibabad, preschool near me, kids play school",
@@ -45,7 +45,7 @@ $programs = [
 
         "requirements_head" => "Designed to introduce children to structured learning in a fun way.",
         "requirements" => [
-            "Age 2 to 3 years",
+            "Age 1.8 to 2.5 years",
             "Group interaction ability",
             "Basic essentials",
             "Parental guidance"
@@ -53,7 +53,7 @@ $programs = [
 
         "goal" => "To prepare children for nursery with strong social and communication skills.",
 
-        "age" => "2 - 3 years",
+        "age" => "1.8 - 2.5 years",
         "time" => "3 Hours",
         "days" => "Monday - Friday",
         // "fee" => "₹3000"
@@ -63,7 +63,7 @@ $programs = [
         "title" => "Nursery School in Sahibabad | Bloomy Preschool",
         "breadcrumb"=>"Nursery ",
         "url" => "nursery-program.php",
-        "image" => "./assets/images/thumbs/3.png",
+        "image" => "./assets/images/bloomy-program-detail/nursery.png",
 
         "meta_desc" => "Nursery school in Sahibabad with alphabets, numbers and activity-based learning.",
         "meta_keywords" => "nursery school Sahibabad, preschool Ghaziabad",
@@ -81,7 +81,7 @@ $programs = [
 
         "goal" => "To build strong academic and creative foundations.",
 
-        "age" => "3 - 4 years",
+        "age" => "2.5 - 3.5 years",
         "time" => "3 Hours",
         "days" => "Monday - Friday",
         // "fee" => "₹3500"
@@ -91,7 +91,7 @@ $programs = [
         "title" => "Junior KG in Sahibabad | Bloomy Preschool",
         "breadcrumb"=>"Junior KG",
         "url" => "junior-kg.php",
-        "image" => "./assets/images/thumbs/4.png",
+        "image" => "./assets/images/bloomy-program-detail/junior-kg.png",
 
         "meta_desc" => "Junior KG in Sahibabad focusing on reading, writing and math skills.",
         "meta_keywords" => "junior kg Sahibabad, kindergarten school",
@@ -109,7 +109,7 @@ $programs = [
 
         "goal" => "To prepare children academically for senior classes.",
 
-        "age" => "4 - 5 years",
+        "age" => "3.5 - 4.5 years",
         "time" => "3 Hours",
         "days" => "Monday - Friday",
         // "fee" => "₹4000"
@@ -119,7 +119,7 @@ $programs = [
         "title" => "Senior KG in Sahibabad | Bloomy Preschool",
         "breadcrumb"=>"Senior KG",
         "url" => "senior-kg.php",
-        "image" => "./assets/images/thumbs/5.png",
+        "image" => "./assets/images/bloomy-program-detail/senior-kg.png",
 
         "meta_desc" => "Senior KG in Sahibabad preparing kids for primary school.",
         "meta_keywords" => "senior kg Sahibabad, kindergarten",
@@ -137,7 +137,7 @@ $programs = [
 
         "goal" => "To prepare children fully for primary school.",
 
-        "age" => "5 - 6 years",
+        "age" => "4.5 - 5.5 years",
         "time" => "3 Hours",
         "days" => "Monday - Friday",
         // "fee" => "₹4500"
@@ -147,7 +147,7 @@ $programs = [
         "title" => "Daycare in Sahibabad | Bloomy Preschool",
         "breadcrumb"=>"Day Care",
         "url" => "day-care.php",
-        "image" => "./assets/images/thumbs/6.png",
+        "image" => "./assets/images/bloomy-program-detail/day-care.png",
 
         "meta_desc" => "Safe daycare in Sahibabad for working parents with full day care.",
         "meta_keywords" => "daycare Sahibabad, child care near me",
@@ -165,8 +165,8 @@ $programs = [
 
         "goal" => "To provide a safe, caring and engaging environment.",
 
-        "age" => "1.5 - 12 years",
-        "time" => "8:00 AM - 8:00 PM",
+        "age" => "1.0 - 12 years",
+        "time" => "8AM - 8PM",
         "days" => "Monday - Friday",
         // "fee" => "₹2000"
     ],

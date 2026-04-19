@@ -56,7 +56,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     <div class="position-relative">
                         <span class="bg-img">
-                            <img src="./assets/images/thumbs/why-choose-about1.png" alt="img" class="bg-img">
+                            <img src="./assets/images/index/bloomy-about.png" alt="img" class="bg-img">
                         </span>
                         <div class="position-absolute bottom-0 tw-start-0 w-100">
                             <div class="d-flex align-items-center tw-gap-3 w-100 tw-px-3 justify-content-center">

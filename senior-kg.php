@@ -155,10 +155,10 @@ $data = $programs['senior-kg'];
                 <div class="col-xl-4">
                     <div>
                         <div class="position-relative tw-mb-5">
-                            <img src="./assets/images/thumbs/program-detail-img.png" 
+                            <img src="./assets/images/index/program-side.png" 
                             alt="<?= htmlspecialchars($data['title'] . ' in Sahibabad at Bloomy Preschool') ?>"
                              class="bg-img">
-                            <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg" class="play-button play-button-two tw-w-15 tw-h-15 border-main-two-600 border rounded-circle d-flex align-items-center justify-content-center position-absolute top-0 tw-start-0 top-50 tw-start-50 translate-middle">
+                            <a href="https://youtu.be/rTm__eYsUuE?si=7CFsyzlqJORd-3NE" class="play-button play-button-two tw-w-15 tw-h-15 border-main-two-600 border rounded-circle d-flex align-items-center justify-content-center position-absolute top-0 tw-start-0 top-50 tw-start-50 translate-middle">
                                 <img src="./assets/images/icon/our-testimonial-top-icon.png" 
                                 alt="<?= htmlspecialchars($data['title'] . ' in Sahibabad at Bloomy Preschool') ?>">
                             </a>

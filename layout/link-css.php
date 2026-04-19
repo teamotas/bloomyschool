@@ -17,7 +17,7 @@
   
   <!-- ✅ Font Awesome (required for icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <style>
     .social-sidebar {
       position: fixed;
@@ -40,11 +40,13 @@
       text-decoration: none;
 
       /* hidden state */
-      transform: translateX(155px);
+      /* transform: translateX(155px); */
       transition: transform 0.3s ease;
 
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
+
+  transform: translateX(calc(100% - 45px)); /* only icon visible */
+}
 
     /* Hover (ONLY THIS ITEM moves) */
     .social:hover {

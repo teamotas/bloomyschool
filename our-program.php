@@ -96,15 +96,15 @@ include('program-data.php');
 
                                 </div>
 
-                                <span class="w-100 tw-h-px border-main-200 tw-border-dashed border tw-mt-6 tw-mb-6"></span>
+                                <!-- <span class="w-100 tw-h-px border-main-200 tw-border-dashed border tw-mt-6 tw-mb-6"></span> -->
 
                                 <!-- CTA -->
-                                <div class="d-flex align-items-center justify-content-between">
-
+                                <!-- <div class="d-flex align-items-center justify-content-between"> -->
+<!-- 
                                     <a href="<?= $program['url'] ?>"
                                     class="tw-w-10 tw-h-10 border-main-600 border rounded-circle d-flex align-items-center justify-content-center tw-text-405 text-main-600 hover-bg-main-600 hover-text-white">
                                         <i class="ph-bold ph-arrow-right"></i>
-                                    </a>
+                                    </a> -->
 
                                     <!-- PRICE -->
                                     <!-- <span class="fw-bold tw-text-5 text-white tw-py-2 tw-px-4"
@@ -112,7 +112,7 @@ include('program-data.php');
                                         <?= htmlspecialchars($program['fee']) ?>
                                     </span> -->
 
-                                </div>
+                                <!-- </div> -->
 
                             </div>
                         </div>
