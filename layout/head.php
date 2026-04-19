@@ -12,4 +12,3 @@ $metaRobots = $metaRobots ?? 'index, follow';
 <meta name="keywords" content="<?= htmlspecialchars($metaKeywords) ?>">
 <meta name="robots" content="<?= htmlspecialchars($metaRobots) ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-

@@ -1,6 +1,6 @@
 
     <div class="bg-neutral-10 position-relative">
-        <img src="./assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-7 tw-ms-12 animation-upDown d-xl-block d-none">
+        <img src="./assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-7 tw-ms-12 animation-upDown d-xl-block d-none" style="z-index: 9;">
         <div class="tw-mb-242-px">
             <!-- =========================== our testimonial top start =========================== -->
             <!-- <div class="tw-mt--250-px z-2">

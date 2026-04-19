@@ -7,7 +7,7 @@ $username = "root";
 $password = "";
 $database = "bloomy";
 
-$adminurl="http://localhost/bloomy/admin/"; // While online the site please blank the site variable
+$adminurl="http://localhost/bloomyschool/admin/"; // While online the site please blank the site variable
 
 
 

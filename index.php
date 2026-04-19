@@ -32,7 +32,7 @@
         <img src="./assets/images/shape/banner-shape1.png" alt="shape" class="position-absolute bottom-0 tw-start-0 z-n1 d-lg-block d-none w-100">
         <img src="./assets/images/shape/banner-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 z-1 d-lg-block d-none w-100">
         <img src="./assets/images/shape/banner-shape3.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me-8 z-n1 tw-mb-134-px d-xxl-block d-none animation-upDown">
-        <img src="./assets/images/bloomy/Png-05.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-244-px d-xxl-block d-none animation-upDown z-n1" style="width: 200px; height: 300px;">
+        <img src="./assets/images/logo/Png-05.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-244-px d-xxl-block d-none animation-upDown z-n1" style="width: 200px; height: 300px;">
         <img src="./assets/images/shape/banner-shape5.png" alt="shape" class="position-absolute tw-start-0 bottom-0 tw-ms-17 z-n1 animation-upDown d-xxl-block d-none">
         <img src="./assets/images/shape/banner-shape6.png" alt="shape" class="position-absolute tw-end-0 top-0 tw-mt-17 tw-me-82-px d-xxl-block d-none animation-scalation">
         <img src="./assets/images/shape/banner-shape7.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-15 tw-ms-104-px animate__wobble__two d-xxl-block d-none">

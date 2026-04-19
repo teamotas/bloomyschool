@@ -5,10 +5,10 @@
               <img src="./assets/images/shape/newsletter-shape3.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-140-px d-xxl-block d-none shadow-none z-1 animation-upDown">
               <img src="./assets/images/shape/newsletter-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-110-px tw-ms-106-px z-1 d-xxl-block d-none animation-rotate-right">
               <img src="./assets/images/shape/newsletter-shape1.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-10 tw-me-400-px tw-me-400-px animation-scalation d-xxl-block d-none z-1">
-              <div class="tw-py-99-px bg-main-600 choose-us-musk-bg-img5 tw-px-8">
+              <div class="tw-py-40-80-px bg-main-600 choose-us-musk-bg-img5 tw-px-8">
                   <div class="max-w-750-px w-100 mx-auto">
                       <div class="text-center tw-mb-8">
-                          <span class="fw-normal tw-text-405 text-white tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Subscribe Newsletter</span>
+                          <span class="fw-normal tw-text-505 text-white tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Subscribe Newsletter</span>
                           <h2 class="fw-bold text-white h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Subscribe to our newsletter </h2>
                       </div>
                       <form action="#" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">

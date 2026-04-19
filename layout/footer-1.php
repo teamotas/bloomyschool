@@ -7,7 +7,7 @@ include(__DIR__ . '/../program-data.php');
   <footer class="footer bg-main-two-300 position-relative z-2">
     <img src="./assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
     <!-- <img src="./assets/images/shape/footer-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown"> -->
-    <img src="./assets/images/bloomy/Png-05.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown" style="width: 200px; height: 300px;">
+    <img src="./assets/images/logo/Png-05.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown" style="width: 200px; height: 300px;">
     
     <img src="./assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-200-px tw-me-130-px d-xl-block d-none z-n1 animation-upDown">
     <img src="./assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb-242-px tw-me-130-px d-xl-block d-none z-n1 animation-scalation">
@@ -21,10 +21,10 @@ include(__DIR__ . '/../program-data.php');
                 <a href="index.php" class="tw-mb-2">
                   <img src="./assets/images/logo/bloom-f.png" alt="Bloomy Preschool">
                 </a>
-                <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6">
+                <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6" style="padding-left:20px">
                     We provide a safe, nurturing and engaging environment where children learn, play and grow with confidence through creative activities and early education.
                 </p>
-                <ul class="d-flex align-items-center tw-gap-2 flex-wrap">
+                <ul class="d-flex align-items-center tw-gap-2 flex-wrap" style="padding-left:20px">
                   <li>
                     <a href="https://www.facebook.com/bloomyschools/" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                       <i class="ph-fill ph-facebook-logo"></i>
@@ -154,7 +154,7 @@ include(__DIR__ . '/../program-data.php');
             </div>
             
           </div>
-          <span class="w-100 tw-border-primary-600 tw-mt-15 tw-mb-15"></span>
+          <span class="w-100 tw-border-primary-600 tw-mt-15 tw-mb-15" style="margin:20px"></span>
           <div class="row gy-4">
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
               <div class="d-flex align-items-center tw-gap-4 flex-wrap">

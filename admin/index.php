@@ -52,9 +52,9 @@ include_once('../config.php');
         <div class="card border-grey border-lighten-3 m-0">
             <div class="card-header no-border">
                 <div class="card-title text-xs-center">
-                    <div class="p-1"><img src="<?=$adminurl?>/src/logo.png" alt="branding logo"></div>
+                    <div class="p-1"><img src="<?=$adminurl?>/src/bloom-f.png" alt="branding logo" style="height:80px;width:250px"></div>
                 </div>
-                <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Login with Makoons</span></h6>
+                <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Login with Bloomy Preschool</span></h6>
             </div>
             <div class="card-body collapse in">
                 <div class="card-block">

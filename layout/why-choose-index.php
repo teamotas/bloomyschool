@@ -1,6 +1,6 @@
     <!-- ========================== why choose us section start ========================== -->
     <section class="py-110 position-relative">
-        <img src="./assets/images/shape/banner-shape4.png" alt="img" class="position-absolute bottom-0 tw-start-0 tw-mb-182-px animation-upDown d-xl-block d-none">
+        <img src="./assets/images/shape/banner-shape4.png" alt="img" class="position-absolute bottom-0 tw-start-0 tw-mb-182-px animation-upDown d-xl-block d-none" style="margin-bottom:100px;z-index:9">
         <div class="container">
             <div class="row gy-5">
                 <div class="col-xl-6">

@@ -45,7 +45,7 @@
                               <i class="ph-fill ph-user"></i>
                           </span>
                           <div class="d-flex align-items-center tw-gap-1">
-                              <a href="apply-for-admission.php" class="fw-normal tw-text-305 text-black hover-text-main-600">
+                              <a href="./admin" class="fw-normal tw-text-305 text-black hover-text-main-600">
                                   Login
                               </a>
                               <!-- <span class="fw-normal text-black tw-text-305">

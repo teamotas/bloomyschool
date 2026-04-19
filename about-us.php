@@ -177,7 +177,7 @@
 
     <div class="container"> 
         <div class="tw-mt-6 position-relative">
-            <!-- <img src="./assets/images/bloomy/Png-05.png" alt="shape" class="position-absolute bottom-0 tw-end-50 d-xl-block d-none" style="width: 300px;"> -->
+            <!-- <img src="./assets/images/logo/Png-05.png" alt="shape" class="position-absolute bottom-0 tw-end-50 d-xl-block d-none" style="width: 300px;"> -->
             <div class="d-flex align-items-center tw-gap-15 flex-wrap">
                 <div class="d-flex align-items-center tw-gap-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <span>
@@ -371,7 +371,7 @@
 
     <!-- ============================== get start now section start ============================== -->
     <div class="position-relative">
-        <img src="./assets/images/shape/get-start-now-three-shape-5.png" alt="shape" class="position-absolute top-0 tw-start-0 animation-scalation tw-ms-110-px d-xl-block d-none">
+        <img src="./assets/images/shape/get-start-now-three-shape-5.png" alt="shape" class="position-absolute top-0 tw-start-0 animation-scalation tw-ms-110-px d-xl-block d-none" style="z-index: 9;">
         <div class="container">
             <div style="background-image: url(assets/images/bg/get-start-three-bg-img.png);" class="bg-img position-relative z-2">
                 <img src="./assets/images/shape/brand-slider-shape1.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-me-9 animation-upDown d-xl-block d-none z-n1">
