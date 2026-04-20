@@ -96,9 +96,12 @@
          
           <li class=" nav-item"><a href="<?=$adminurl?>/dashboard.php"><i class="icon-home3"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Dashboard</span></a>
           </li>
-        
+
          
-          <li class=" nav-item"><a href="<?=$adminurl?>/enquiries.php"><i class="icon-paper"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Enquiries</span></a>
+          <li class=" nav-item"><a href="<?=$adminurl?>/enquiries.php"><i class="icon-paper"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Contact Enquiries</span></a>
+          </li>
+
+          <li class=" nav-item"><a href="<?=$adminurl?>/admission-enquiries.php"><i class="icon-paper"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">Admission Enquiries</span></a>
           </li>
           <!-- <li class=" nav-item"><a href="table-basic.html"><i class="icon-table2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Basic Tables</span></a>
           </li> -->

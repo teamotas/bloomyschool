@@ -1,5 +1,5 @@
 <?php include_once('layout/top.php'); ?>
-<title>Contact Enquiries</title>
+<title>Admission Enquiries</title>
 
 <?php include_once('layout/header.php'); ?>
 
@@ -40,7 +40,7 @@
 
                                     <tbody>
                                         <?php
-                                        $fetch = mysqli_query($conn, "SELECT * FROM contact_forms ORDER BY created_at DESC");
+                                        $fetch = mysqli_query($conn, "SELECT * FROM admission_forms ORDER BY created_at DESC");
                                         $i = 0;
                                         ?>
 
@@ -90,7 +90,7 @@
                                                 </td>
 
                                                 <td>
-                                                    <a href="<?= $adminurl; ?>/delete_enquiry.php/?id=<?= $row['id']; ?>"
+                                                    <a href="<?= $adminurl; ?>/delete_adm_enquiry.php/?id=<?= $row['id']; ?>"
                                                        onclick="return confirm('Are you sure?')">
                                                         <i class="icon-trash3"></i>
                                                     </a>

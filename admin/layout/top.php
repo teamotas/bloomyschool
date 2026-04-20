@@ -1,6 +1,7 @@
 <?php 
 session_start();
 include_once('../config.php');
+// include_once('../../config.php');
 
   if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in']!='1'){
   
