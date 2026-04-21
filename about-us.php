@@ -293,8 +293,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div>
                             <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/bloom/1.png" alt="Bloomy Preschool Activity" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/1.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/1.png" alt="Bloomy Preschool Activity" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/1.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
@@ -302,8 +302,8 @@
                             </div>
 
                             <div class="gallery-thumb w-100">
-                                <img src="assets/images/bloom/2.png" alt="Classroom Learning" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/2.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/2.png" alt="Classroom Learning" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/2.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
@@ -316,8 +316,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="tw-mt--32-px">
                             <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/bloom/3.png" alt="Kids Activities" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/3.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/3.png" alt="Kids Activities" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/3.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
@@ -325,8 +325,8 @@
                             </div>
 
                             <div class="gallery-thumb w-100">
-                                <img src="assets/images/bloom/4.png" alt="Play Area" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/4.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/4.png" alt="Play Area" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/4.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
@@ -339,8 +339,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="tw-mt--64-px">
                             <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/bloom/5.png" alt="School Environment" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/5.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/5.png" alt="School Environment" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/5.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
@@ -348,8 +348,8 @@
                             </div>
 
                             <div class="gallery-thumb w-100">
-                                <img src="assets/images/bloom/6.png" alt="Learning Activities" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/bloom/6.png" class="gallery-thumb__link gallery-popup">
+                                <img src="assets/images/gallery/6.png" alt="Learning Activities" class="cover-img w-100" loading="lazy">
+                                <a href="assets/images/gallery/6.png" class="gallery-thumb__link gallery-popup">
                                     <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
                                         <i class="ph-bold ph-plus"></i>
                                     </span>
