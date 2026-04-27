@@ -142,6 +142,10 @@
             </div>
         </div>
     </section>
+    
+    <?php include('./layout/why-choose-index.php') ?>
+
+    <?php include('./layout/testimonial-index.php') ?>
 
     <?php include('./layout/newsletter.php') ?>
 
