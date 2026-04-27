@@ -165,7 +165,7 @@ $programs = [
 
         "goal" => "To provide a safe, caring and engaging environment.",
 
-        "age" => "1.0 - 12 years",
+        "age" => "1.5 - 12 years",
         "time" => "8AM - 8PM",
         "days" => "Monday - Friday",
         // "fee" => "₹2000"

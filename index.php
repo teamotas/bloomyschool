@@ -61,7 +61,7 @@
                                     <span class="fw-normal tw-text-4 text-black tw-mb-2">Call Now</span>
                                     <h2 class="h5">
                                         <a href="tel:+919810865370" class="fw-bold text-main-600 hover-underline tw-duration-300">
-                                            +91 981-086-5370 
+                                            +91 9810865370 
                                         </a>
                                     </h2>
                                 </div>
@@ -128,7 +128,7 @@
                             <span class="fw-normal tw-text-505 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">About Bloomy Preschool</span>
                             <h2 class="text-neutral-950 fw-bold tw-mb-7 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">Where Learning Begins with Joy</h2>
                             <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-7 line-height-28-px" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-                                Bloomy Preschool is one of the best preschools in Sahibabad, Ghaziabad, offering play-based early childhood education for toddlers, nursery, junior KG, senior KG, and daycare. 
+                                Bloomy Preschool is one of the best preschools in Sahibabad, Ghaziabad, offering play-based early childhood education for toddlers, playgroup, nursery, junior KG, senior KG, and daycare. 
 
                                 We focus on holistic child development through interactive learning, creative activities, and a safe, nurturing environment. Our experienced teachers ensure that every child develops social, emotional, and academic skills required for future success.
 
@@ -343,139 +343,134 @@
     </section>
     
     <!-- ========================= our pedagogy end ========================= -->
-<style>
-/* SECTION */
-.facilities-modern {
-  background: #fff;
-}
+    <style>
+        /* SECTION */
+        .facilities-modern {
+        background: #fff;
+        }
 
-/* TITLES */
+        /* ITEM */
+        .facility-item {
+        text-align: center;
+        }
 
+        /* CIRCLE */
+        .circle {
+        width: 110px;
+        height: 110px;
+        margin: 0 auto 15px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: floatY 3s ease-in-out infinite;
+        transition: 0.3s;
+        }
 
+        /* ICON */
+        .circle i {
+        font-size: 34px;
+        color: #fff;
+        }
 
+        /* HOVER BOOST */
+        .circle:hover {
+        transform: scale(1.1);
+        }
 
-/* ITEM */
-.facility-item {
-  text-align: center;
-}
+        /* 🔥 GRADIENT COLORS */
+        .gradient-1 { background: linear-gradient(135deg, #f6a623, #fdd76e); }
+        .gradient-2 { background: linear-gradient(135deg, #5f748f, #8fa3bf); }
+        .gradient-3 { background: linear-gradient(135deg, #f04d2c, #ff7a59); }
+        .gradient-4 { background: linear-gradient(135deg, #2f7edb, #5aa6ff); }
+        .gradient-5 { background: linear-gradient(135deg, #7ac142, #a8e063); }
+        .gradient-6 { background: linear-gradient(135deg, #2fa4a0, #5fd0cc); }
 
-/* CIRCLE */
-.circle {
-  width: 110px;
-  height: 110px;
-  margin: 0 auto 15px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: floatY 3s ease-in-out infinite;
-  transition: 0.3s;
-}
+        /* TEXT */
+        .facility-item h6 {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--neutral-800);
+        }
 
-/* ICON */
-.circle i {
-  font-size: 34px;
-  color: #fff;
-}
+        /* 🔥 BOUNCY FLOAT ANIMATION */
+        @keyframes floatY {
+        0%   { transform: translateY(0px); }
+        50%  { transform: translateY(-8px); }
+        100% { transform: translateY(0px); }
+        }
+    </style>
+    <section class="py-5 facilities-modern text-center">
+    <div class="container">
 
-/* HOVER BOOST */
-.circle:hover {
-  transform: scale(1.1);
-}
+        <!-- Title -->
+        <p class=" mb-2 fw-normal tw-text-505" data-aos="fade-up">
+        Our Facilities
+        </p>
 
-/* 🔥 GRADIENT COLORS */
-.gradient-1 { background: linear-gradient(135deg, #f6a623, #fdd76e); }
-.gradient-2 { background: linear-gradient(135deg, #5f748f, #8fa3bf); }
-.gradient-3 { background: linear-gradient(135deg, #f04d2c, #ff7a59); }
-.gradient-4 { background: linear-gradient(135deg, #2f7edb, #5aa6ff); }
-.gradient-5 { background: linear-gradient(135deg, #7ac142, #a8e063); }
-.gradient-6 { background: linear-gradient(135deg, #2fa4a0, #5fd0cc); }
+        <h2 class="main-title mb-5 h7" data-aos="fade-up" data-aos-delay="100">
+        We create a safe and joyful space for every child
+        </h2>
 
-/* TEXT */
-.facility-item h6 {
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--neutral-800);
-}
+        <div class="row justify-content-center g-4">
 
-/* 🔥 BOUNCY FLOAT ANIMATION */
-@keyframes floatY {
-  0%   { transform: translateY(0px); }
-  50%  { transform: translateY(-8px); }
-  100% { transform: translateY(0px); }
-}
-</style>
-<section class="py-5 facilities-modern text-center">
-  <div class="container">
-
-    <!-- Title -->
-    <p class=" mb-2 fw-normal tw-text-505" data-aos="fade-up">
-      Our Facilities
-    </p>
-
-    <h2 class="main-title mb-5 h7" data-aos="fade-up" data-aos-delay="100">
-       We create a safe and joyful space for every child
-    </h2>
-
-    <div class="row justify-content-center g-4">
-
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="facility-item">
-          <div class="circle gradient-1">
-            <i class="fa-solid fa-children"></i>
-          </div>
-          <h6>Activity Room</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="facility-item">
+            <div class="circle gradient-1">
+                <i class="fa-solid fa-children"></i>
+            </div>
+            <h6>Activity Room</h6>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="200">
-        <div class="facility-item">
-          <div class="circle gradient-2">
-            <i class="fa-solid fa-puzzle-piece"></i>
-          </div>
-          <h6>Play To Learn</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="facility-item">
+            <div class="circle gradient-2">
+                <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <h6>Play To Learn</h6>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="300">
-        <div class="facility-item">
-          <div class="circle gradient-3">
-            <i class="fa-solid fa-award"></i>
-          </div>
-          <h6>Quality Educators</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="facility-item">
+            <div class="circle gradient-3">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <h6>Quality Educators</h6>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="400">
-        <div class="facility-item">
-          <div class="circle gradient-4">
-            <i class="fa-solid fa-utensils"></i>
-          </div>
-          <h6>Hygienic Food</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="facility-item">
+            <div class="circle gradient-4">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h6>Hygienic Food</h6>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="500">
-        <div class="facility-item">
-          <div class="circle gradient-5">
-            <i class="fa-solid fa-house"></i>
-          </div>
-          <h6>Home-like Environment</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="facility-item">
+            <div class="circle gradient-5">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <h6>Home-like Environment</h6>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="600">
-        <div class="facility-item">
-          <div class="circle gradient-6">
-            <i class="fa-solid fa-shield-halved"></i>
-          </div>
-          <h6>Safety & Security</h6>
+        <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="facility-item">
+            <div class="circle gradient-6">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h6>Safety & Security</h6>
+            </div>
         </div>
-      </div>
 
+        </div>
     </div>
-  </div>
-</section>
+    </section>
     <!-- ========================= slider section start ========================= -->
     <!-- <div class="pb-110 position-relative">
         <img src="./assets/images/shape/brand-slider-shape1.png" alt="shape" class="position-absolute bottom-0 d-lg-block d-none animation-upDown tw-ms-16 tw-start-0 d-xxl-block d-none">
@@ -668,7 +663,7 @@
                                         <span class="fw-normal tw-text-4 text-white tw-mb-1">Enroll Your Child Today</span>
                                         <h2 class="h5">
                                             <a href="tel:+919810865370" class="fw-bold text-main-two-600" style="color: white;">
-                                                +91 981-086-5370
+                                                +91 9810865370
                                             </a>
                                         </h2>
                                     </div>
@@ -767,21 +762,64 @@
         
     <style>
         .award-box {
-        border-radius: 16px;
-        overflow: hidden;
-        background: #fff;
-        transition: 0.3s;
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            background: #fff;
+            cursor: pointer;
         }
 
         .award-box img {
-        width: 100%;
-        height: 240px;
-        object-fit: cover;
-        transition: 0.4s;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            transition: 0.4s;
+        }
+
+        /* overlay (desktop) */
+        .award-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.65);
+            color: #fff;
+            padding: 16px;
+            display: flex;
+            align-items: flex-end;
+            opacity: 0;
+            transition: 0.3s;
         }
 
         .award-box:hover img {
-        transform: scale(1.08);
+            transform: scale(1.08);
+        }
+
+        .award-box:hover .award-overlay {
+            opacity: 1;
+        }
+
+        .award-overlay p {
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        /* bottom content (mobile fallback) */
+        .award-content {
+            display: none;
+            padding: 12px;
+            font-size: 14px;
+            line-height: 1.4;
+            background: #fff;
+        }
+
+        /* MOBILE FIX */
+        @media (max-width: 768px) {
+            .award-overlay {
+                display: none;
+            }
+            .award-content {
+                display: block;
+            }
         }
     </style>
 
@@ -800,56 +838,143 @@
 
                 <!-- Bhagyashree -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/Bhagyashree.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/Bhagyashree.jpeg" alt="Bhagyashree Award">
+                    <a href="./assets/images/awards/Bhagyashree.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/Bhagyashree.jpeg" alt="Bhagyashree Award">
+
+                            <div class="award-overlay">
+                                <p>
+                                    Most Innovative Playschool Brand felicitated by 
+                                    
+                                    on 15 Dec 2024
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        Most Innovative Playschool Brand felicitated by 
+                        
+                        on 15 Dec 2024
                     </div>
-                </a>
                 </div>
 
                 <!-- Bipasha Basu -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/bipasha.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/bipasha.jpeg" alt="Bipasha Basu Award">
+                    <a href="./assets/images/awards/bipasha.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/bipasha.jpeg" alt="Bipasha Basu Award">
+
+                            <div class="award-overlay">
+                                <p>
+                                    Excellence in Preschool Pedagogy felicitated by 
+                                    
+                                    on 28 Nov 2025
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        Excellence in Preschool Pedagogy felicitated by 
+                        
+                        on 28 Nov 2025
                     </div>
-                </a>
                 </div>
 
                 <!-- Hema Malini -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/Hema-Malini.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/Hema-Malini.jpeg" alt="Hema Malini Award">
+                    <a href="./assets/images/awards/Hema-Malini.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/Hema-Malini.jpeg" alt="Hema Malini Award">
+
+                            <div class="award-overlay">
+                                <p>
+                                    The Best School for Futuristic Education in Ghaziabad,
+                                    felicitated by 
+                                    
+                                    on 27 Jan 2024
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        The Best School for Futuristic Education in Ghaziabad,
+                        felicitated by 
+                        
+                        on 27 Jan 2024
                     </div>
-                </a>
                 </div>
 
                 <!-- Jaya Prada -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/Jaya-Prada.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/Jaya-Prada.jpeg" alt="Jaya Prada Award">
+                    <a href="./assets/images/awards/Jaya-Prada.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/Jaya-Prada.jpeg" alt="Jaya Prada Award">
+
+                            <div class="award-overlay">
+                                <p>
+                                    Parent's Choice Award for The Best Preschool & Daycare in Ghaziabad,
+                                    felicitated by 
+                                    
+                                    on 27 May 2023
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        Parent's Choice Award for The Best Preschool & Daycare in Ghaziabad,
+                        felicitated by 
+                        
+                        on 27 May 2023
                     </div>
-                </a>
                 </div>
 
                 <!-- Sharman Joshi -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/Sharman-Joshi.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/Sharman-Joshi.jpeg" alt="Sharman Joshi Award">
-                    </div>
-                </a>
-                </div>
+                    <a href="./assets/images/awards/Sharman-Joshi.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/Sharman-Joshi.jpeg" alt="Sharman Joshi Award">
 
+                            <div class="award-overlay">
+                                <p>
+                                    Excellence Award for shaping Young Futures felicitated by 
+                                    
+                                    on 14 Dec 2025
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        Excellence Award for shaping Young Futures felicitated by 
+                        
+                        on 14 Dec 2025
+                    </div>
+                </div>
                 <!-- Tannaz Irani -->
                 <div class="swiper-slide">
-                <a href="./assets/images/awards/Tannaz-Irani.jpeg" class="gallery-popup">
-                    <div class="award-box">
-                    <img src="./assets/images/awards/Tannaz-Irani.jpeg" alt="Tannaz Irani Award">
+                    <a href="./assets/images/awards/Tannaz-Irani.jpeg" class="gallery-popup">
+                        <div class="award-box">
+                            <img src="./assets/images/awards/Tannaz-Irani.jpeg" alt="Tannaz Irani Award">
+
+                            <div class="award-overlay">
+                                <p>
+                                    Bright Beacon Award felicitated by 
+                                    
+                                    on 24 Dec 2023
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="award-content">
+                        Bright Beacon Award felicitated by 
+                        
+                        on 24 Dec 2023
                     </div>
-                </a>
                 </div>
 
             </div>

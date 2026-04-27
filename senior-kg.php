@@ -143,8 +143,8 @@ $data = $programs['senior-kg'];
                                 <div>
                                     <span class="fw-normal tw-text-4 text-black tw-mb-2">Call Now</span>
                                     <h2 class="h5">
-                                        <a href="tel:0120-4160100" class="fw-bold text-gren-600">
-                                             0120-4160100
+                                        <a href="tel:9810865370" class="fw-bold text-gren-600">
+                                             9810865370
                                         </a>
                                     </h2>
                                 </div>

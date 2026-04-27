@@ -48,267 +48,64 @@
     </style>
     <!-- ========================== our gallery section start ========================== -->
     <section class="py-110 ">
-        <div class="container">
-            <div>
+        <style>
+.video-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
 
-                <div class="row gy-4">
+.video-card:hover {
+    transform: translateY(-6px);
+}
 
-                    <div class="col-lg-4 col-md-6">
-                        <div>
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/1.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/1.jpeg" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
+.video-frame {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 ratio */
+}
 
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/2.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/2.jpeg" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+.video-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--32-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/3.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/3.jpeg" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
+.video-title {
+    padding: 12px 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+</style>
 
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/4.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/4.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+<div class="container py-5">
+    <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--64-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/5.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/5.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/6.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/6.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+        <!-- Video Item -->
+        <div class="col-lg-4 col-md-6">
+            <div class="video-card">
+                <div class="video-frame">
+                    <iframe 
+                        src="https://www.youtube.com/embed/ZswxoB2f9DQ" 
+                        title="Bloomy Video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
-
-                <div class="row gy-4 mt-2">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div>
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/7.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/7.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/8.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/8.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--32-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/9.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/9.jpeg" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/10.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/10.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--64-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/11.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/11.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-<!-- 
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/12.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/12.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div> -->
-                        </div>
-                    </div>
-
+                <div class="video-title">
+                    Bloomy Preschool Activity
                 </div>
-                                <div class="row gy-4">
-                    <!-- Column 1 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div>
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/gallery/1.png" alt="Bloomy Preschool Activity" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/1.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="assets/images/gallery/2.png" alt="Classroom Learning" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/2.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Column 2 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--32-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/gallery/3.png" alt="Kids Activities" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/3.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="assets/images/gallery/4.png" alt="Play Area" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/4.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Column 3 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--64-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="assets/images/gallery/5.png" alt="School Environment" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/5.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="assets/images/gallery/6.png" alt="Learning Activities" class="cover-img w-100" loading="lazy">
-                                <a href="assets/images/gallery/6.png" class="gallery-thumb__link gallery-popup">
-                                    <span class="bg-white tw-w-15 tw-h-15 rounded-circle tw-text-6 text-main-600 d-flex align-items-center justify-content-center">
-                                        <i class="ph-bold ph-plus"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                </div>
-
-
-                <div class="row gy-4 mt-2">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div>
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/13.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/13.jpeg" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/14.jpeg" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/14.jpeg" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--32-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/15.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/15.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/16.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/16.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tw-mt--64-px">
-                            <div class="gallery-thumb w-100 tw-mb-5">
-                                <img src="./assets/images/bloomy/17.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/17.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-
-                            <div class="gallery-thumb w-100">
-                                <img src="./assets/images/bloomy/18.png" class="cover-img w-100">
-                                <a href="./assets/images/bloomy/18.png" class="gallery-thumb__link gallery-popup"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>          
-            </div>                                                                                   
-<!--             
-            ./assets/images/bloomy/1.jpeg 
-            ./assets/images/bloomy/2.jpeg 
-            ./assets/images/bloomy/3.jpeg 
-            ./assets/images/bloomy/9.jpeg 
-            ./assets/images/bloomy/13.jpeg 
-            ./assets/images/bloomy/14.jpeg 
-
-            ./assets/images/bloomy/4.png 
-            ./assets/images/bloomy/5.png 
-            ./assets/images/bloomy/6.png 
-            ./assets/images/bloomy/7.png 
-            ./assets/images/bloomy/8.png 
-            ./assets/images/bloomy/10.png 
-
-            ./assets/images/bloomy/11.png 
-            ./assets/images/bloomy/12.png 
-            ./assets/images/bloomy/15.png 
-            ./assets/images/bloomy/16.png 
-            ./assets/images/bloomy/17.png 
-            ./assets/images/bloomy/18.png -->
+            </div>
         </div>
+
+        
+    </div>
+</div>
     </section>
     <!-- ========================== our gallery section end ========================== -->
      

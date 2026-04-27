@@ -67,7 +67,7 @@
   </div>
 
   <div class="social youtube">
-    <a href="https://youtube.com/" target="_blank">
+    <a href="https://youtube.com/@bloomyschools" target="_blank">
       <span>Subscribe on YouTube</span>
       <i class="fab fa-youtube"></i>
     </a>

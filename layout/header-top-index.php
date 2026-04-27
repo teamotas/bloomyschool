@@ -10,7 +10,7 @@
                                   <i class="ph-fill ph-phone"></i>
                               </span>
                               <a href="tel:+919810865370" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">
-                                 +91 981-086-5370 
+                                 +91 9810865370 
                               </a>
                           </div>
                           <div class="d-flex align-items-center tw-gap-2 flex-wrap">

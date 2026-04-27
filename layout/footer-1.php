@@ -168,7 +168,7 @@ include(__DIR__ . '/../program-data.php');
                   </span>
                   <h2 class="h5">
                     <a href="tel:+919810865370" class="fw-semibold text-neutral-950" style="font-size:20px">
-                      +91 981-086-5370
+                      +91 9810865370
                     </a>
                   </h2>
                 </div>
