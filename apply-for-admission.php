@@ -142,8 +142,13 @@
             </div>
         </div>
     </section>
-    
+
+    <?php include('./layout/our-program.php') ?>
+
     <?php include('./layout/why-choose-index.php') ?>
+
+    <?php include('./layout/awards.php')?>
+    <?php include('./layout/facilities.php') ?>
 
     <?php include('./layout/testimonial-index.php') ?>
 
@@ -258,6 +263,56 @@
         e.preventDefault();
         grecaptcha.execute();
     });
+    </script>
+    <script>
+        var awardsSwiper = new Swiper(".awards-swiper-slider", {
+        slidesPerView: 4,
+        spaceBetween: 25,
+        loop: true,
+        speed: 2000,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        breakpoints: {
+            300: {
+            slidesPerView: 1,
+            },
+            576: {
+            slidesPerView: 2,
+            },
+            992: {
+            slidesPerView: 3,
+            },
+            1200: {
+            slidesPerView: 4,
+            },
+        }
+        });
+        var programSwiper = new Swiper(".program-swiper-slider", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        loop: true,
+        speed: 2000,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        breakpoints: {
+            300: {
+            slidesPerView: 1,
+            },
+            576: {
+            slidesPerView: 2,
+            },
+            992: {
+            slidesPerView: 3,
+            },
+            1200: {
+            slidesPerView: 4,
+            },
+        }
+        });
     </script>
     </body>
 </html>

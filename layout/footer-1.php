@@ -155,10 +155,10 @@ include(__DIR__ . '/../program-data.php');
             
           </div>
           <span class="w-100 tw-border-primary-600 tw-mt-15 tw-mb-15" style="margin:20px"></span>
-          <div class="row gy-4">
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+          <div class="row gy-2">
+            <div class="col-xxl-3 col-lg-2 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
               <div class="d-flex align-items-center tw-gap-4 flex-wrap">
-                <span class="tw-w-15 tw-h-15 bg-main-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <span class="tw-w-10 tw-h-10 bg-main-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
                   <img src="./assets/images/icon/footer-icon1.png" alt="icon">
                 </span>
                 <div>
@@ -174,9 +174,9 @@ include(__DIR__ . '/../program-data.php');
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
               <div class="d-flex align-items-center tw-gap-4 flex-wrap">
-                <span class="tw-w-15 tw-h-15 bg-main-two-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <span class="tw-w-10 tw-h-10 bg-main-two-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
                   <img src="./assets/images/icon/footer-icon2.png" alt="icon">
                 </span>
                 <div>
@@ -191,17 +191,32 @@ include(__DIR__ . '/../program-data.php');
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
               <div class="d-flex align-items-center tw-gap-4 flex-wrap">
-                <span class="tw-w-15 tw-h-15 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <span class="tw-w-10 tw-h-10 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
                   <img src="./assets/images/icon/footer-icon3.png" alt="icon">
                 </span>
                 <div>
                   <span class="fw-medium tw-text-4 text-paragraph-600 tw-mb-2">
-                    Location
+                    Sahibabad branch details
                   </span>
                   <h1 class="fw-semibold text-neutral-950 h6" style="font-size:15px">
-                     2/100, Block-2, Sector-2, Rajendra Nagar, <br/> Sahibabad, Ghaziabad, Uttar Pradesh 201005
+                     2/100, Block-2, Sector-2, Rajendra Nagar, Sahibabad, Ghaziabad, Uttar Pradesh 201005
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+              <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                <span class="tw-w-10 tw-h-10 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                  <img src="./assets/images/icon/footer-icon3.png" alt="icon">
+                </span>
+                <div>
+                  <span class="fw-medium tw-text-4 text-paragraph-600 tw-mb-2">
+                    Rajendra Nagar branch details
+                  </span>
+                  <h1 class="fw-semibold text-neutral-950 h6" style="font-size:15px">
+                      3/36 Sector-5 Rajendra Nagar, Near Mother Dairy Booth, Sahibabad, Ghaziabad - 201005
                   </h1>
                 </div>
               </div>

@@ -39,6 +39,29 @@
         include './layout/breadcrumb.php';
     ?>
     <!-- =========================== contact us section start =========================== -->
+    <style>
+
+        .map-wrapper {
+            height: 100%;
+            min-height: 95px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .map-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* MOBILE FLOW (important) */
+        @media (max-width: 991px) {
+            .map-wrapper {
+                min-height: 80px;
+            }
+        }
+    </style>
+
     <section class="py-110">
         <style>
             .branch-card {
@@ -108,7 +131,8 @@
                 width: 42px;
                 height: 42px;
                 border-radius: 12px;
-                background: linear-gradient(135deg, #f5f5f5, #ffffff);
+                background: linear-gradient(135deg, #F9B001, #FC4525);
+                
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -213,6 +237,15 @@
                     </div>
                 </div>
 
+                <div class="col-lg-6">
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56015.05094652652!2d77.31541843024048!3d28.661494665831622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbeb7bdc2a6b%3A0x1e62a81e43dbec0e!2sBloomy%20Preschool%20%7C%20Daycare%20%26%20Activity%20Center!5e0!3m2!1sen!2sin!4v1777361707180!5m2!1sen!2sin"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
                 <!-- Branch 2 -->
                 <div class="col-lg-6">
                     <div class="branch-card p-4 border rounded-3 shadow-sm h-100">
@@ -268,6 +301,14 @@
 
                         </div>
 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.270504764195!2d77.35511137529102!3d28.681553775638022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbf024733f1d%3A0xb999cc4ca1b6d67b!2sBloomy%20Preschool%20%7C%20Daycare%20%26%20Activity%20Center%20-%20Rajendra%20Nagar!5e0!3m2!1sen!2sin!4v1777361629891!5m2!1sen!2sin"
+                            loading="lazy">
+                        </iframe>
                     </div>
                 </div>
 
@@ -391,13 +432,13 @@
     <!-- ==================== contact us bottom start ============================ -->
     <!-- ======================== map section start ======================== -->
     <!-- Google Map start -->
-        <div class="tw-h-500-px">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0613591637875!2d77.34397237529126!3d28.68781107563455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbeb7bdc2a6b%3A0x1e62a81e43dbec0e!2sBloomy%20Preschool%20%7C%20Daycare%20%26%20Activity%20Center!5e0!3m2!1sen!2sin!4v1774988390275!5m2!1sen!2sin"
-                class="w-100 h-100"></iframe>
-            
-        </div>
-        <!-- Google Map end -->
+    <!-- <div class="tw-h-500-px">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0613591637875!2d77.34397237529126!3d28.68781107563455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbeb7bdc2a6b%3A0x1e62a81e43dbec0e!2sBloomy%20Preschool%20%7C%20Daycare%20%26%20Activity%20Center!5e0!3m2!1sen!2sin!4v1774988390275!5m2!1sen!2sin"
+            class="w-100 h-100"></iframe>
+        
+    </div> -->
+    <!-- Google Map end -->
     <!-- ======================== map section end ======================== -->
     <!-- ==================== contact us bottom end ============================ -->
 
@@ -407,7 +448,7 @@
 
     <?php include('./layout/link-js.php') ?>
 
-        <script>
+    <script>
         const form = document.getElementById("contactForm");
 
         // Inputs
@@ -535,6 +576,6 @@
                 grecaptcha.execute();
             }
         });
-        </script>
+    </script>
 </body>
 </html>
