@@ -3,11 +3,19 @@ date_default_timezone_set("Asia/Kolkata");
 
 // Database credentials
 $host = "localhost";
+// $username = "a13d8fd42_bloomy";
+// $password = "dMx1lIbf7Ye7IGWn";
+// $database = "a13d8fd42_bloomy";
+
+// $adminurl="https://bloomyschools.com/admin/"; // While online the site please blank the site variable
+
+
+$host = "localhost";
 $username = "root";
 $password = "";
 $database = "bloomy";
 
-$adminurl="http://localhost/zips/bloomy/admin/"; // While online the site please blank the site variable
+$adminurl="http://localhost/bloomy/admin/"; // While online the site please blank the site variable
 
 
 

@@ -1,0 +1,19 @@
+[20-Apr-2026 11:14:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13d8fd42/public_html/bloomyschools.com/config.php:15
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/config.php(15): mysqli->__construct()
+#1 /home/a13d8fd42/public_html/bloomyschools.com/admin/index.php(2): include_once('/home/a13d8fd42...')
+#2 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/config.php on line 15
+[20-Apr-2026 11:20:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'username' in 'WHERE' in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php:12
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php(12): mysqli->prepare()
+#1 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php on line 12
+[20-Apr-2026 11:21:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'username' in 'WHERE' in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php:12
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php(12): mysqli->prepare()
+#1 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php on line 12
+[20-Apr-2026 11:39:16 Asia/Kolkata] PHP Warning:  Undefined array key "profile_picture" in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php on line 22
+[20-Apr-2026 12:19:29 Asia/Kolkata] PHP Warning:  Undefined array key "profile_picture" in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php on line 22
+[26-Apr-2026 14:26:39 Asia/Kolkata] PHP Warning:  Undefined array key "profile_picture" in /home/a13d8fd42/public_html/bloomyschools.com/admin/login.php on line 22

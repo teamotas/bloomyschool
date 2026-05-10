@@ -20,14 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         ?>
         <script>
             alert("Enquiry deleted successfully");
-            window.location = "<?= $adminurl; ?>/enquiries.php";
+            window.location = "<?= $adminurl; ?>/admission-enquiries.php";
         </script>
         <?php
     } else {
         ?>
         <script>
             alert("Unable to delete request,please try again!");
-            window.location = "<?= $adminurl; ?>/enquiries.php";
+            window.location = "<?= $adminurl; ?>/admission-enquiries.php";
         </script>
         <?php
     }

@@ -122,7 +122,7 @@
                         <!-- Submit Button -->
                         <button type="submit"
                             class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5 g-recaptcha "
-                            data-sitekey="6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W"
+                            data-sitekey="6LfaGAEsAAAAAAK03v_nZRy74ZouoW7HKLFK39nW"
                             data-callback="onSubmit"
                             data-action="submit"
                         >
@@ -152,118 +152,192 @@
 
     <?php include('./layout/testimonial-index.php') ?>
 
+    <?php include('./layout/our-program.php') ?>
+
+    <?php include('./layout/why-choose-index.php') ?>
+
+    <?php include('./layout/awards.php')?>
+    <?php include('./layout/facilities.php') ?>
+
+    <?php include('./layout/testimonial-index.php') ?>
+
     <?php include('./layout/newsletter.php') ?>
 
     <?php include('./layout/footer-1.php') ?>
 
     <?php include('./layout/link-js.php') ?>
+<script>
 
-    <script>
     const form = document.getElementById("admissionForm");
 
-    // Inputs (FIXED)
+    // Inputs
     const nameEl = document.getElementById("name");
     const emailEl = document.getElementById("email");
     const phoneEl = document.getElementById("phone");
     const programEl = document.getElementById("program");
-    const messageEl = document.getElementById("message");
 
     let isSubmitting = false;
 
-    // ===== Helpers =====
+
+    // =====================================
+    // HELPERS
+    // =====================================
     function showError(input, message) {
+
         const small = input.parentElement.querySelector(".error");
-        if (small) small.innerText = message;
+
+        if (small) {
+            small.innerText = message;
+        }
     }
 
     function showSuccess(input) {
+
         const small = input.parentElement.querySelector(".error");
-        if (small) small.innerText = "";
+
+        if (small) {
+            small.innerText = "";
+        }
     }
 
-    // ===== Validations =====
+
+    // =====================================
+    // VALIDATIONS
+    // =====================================
     function validateName() {
+
         if (!nameEl.value.trim()) {
+
             showError(nameEl, "Name is required");
+
             return false;
         }
+
         showSuccess(nameEl);
+
         return true;
     }
 
+
     function validateEmail() {
+
         const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+        if (!emailEl.value.trim()) {
+
+            showError(emailEl, "Email is required");
+
+            return false;
+        }
+
         if (!pattern.test(emailEl.value.trim())) {
+
             showError(emailEl, "Invalid email");
+
             return false;
         }
 
         showSuccess(emailEl);
+
         return true;
     }
 
+
     function validatePhone() {
+
         const pattern = /^[6-9]\d{9}$/;
 
         if (!pattern.test(phoneEl.value.trim())) {
+
             showError(phoneEl, "Invalid phone number");
+
             return false;
         }
 
         showSuccess(phoneEl);
+
         return true;
     }
 
+
     function validateProgram() {
+
         if (!programEl.value) {
+
             showError(programEl, "Select a program");
+
             return false;
         }
 
         showSuccess(programEl);
+
         return true;
     }
 
-    function validateMessage() {
-        if (messageEl.value.trim().length < 5) {
-            showError(messageEl, "Minimum 5 characters required");
-            return false;
-        }
-
-        showSuccess(messageEl);
-        return true;
-    }
 
     function validateAll() {
+
         return (
             validateName() &&
             validateEmail() &&
             validatePhone() &&
-            validateProgram() &&
-            validateMessage()
+            validateProgram()
         );
     }
 
-    // ===== reCAPTCHA callback =====
+
+    // =====================================
+    // LIVE VALIDATION
+    // =====================================
+    nameEl.addEventListener("input", validateName);
+
+    emailEl.addEventListener("input", validateEmail);
+
+    phoneEl.addEventListener("input", validatePhone);
+
+    programEl.addEventListener("change", validateProgram);
+
+
+    // =====================================
+    // RECAPTCHA CALLBACK
+    // =====================================
     function onSubmit(token) {
+
         if (!isSubmitting) {
+
             isSubmitting = true;
+
             form.submit();
         }
     }
 
-    // ===== Submit handler =====
+
+    // =====================================
+    // FORM SUBMIT
+    // =====================================
     form.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
         if (!validateAll()) {
-            e.preventDefault();
             return;
         }
 
-        e.preventDefault();
-        grecaptcha.execute();
+        if (isSubmitting) {
+            return;
+        }
+
+        if (typeof grecaptcha !== "undefined") {
+
+            grecaptcha.execute();
+
+        } else {
+
+            alert("Captcha not loaded. Please refresh page.");
+        }
     });
-    </script>
+
+</script>
     <script>
         var awardsSwiper = new Swiper(".awards-swiper-slider", {
         slidesPerView: 4,
@@ -315,4 +389,7 @@
         });
     </script>
     </body>
+    </script>
+    </body>
 </html>
+

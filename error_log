@@ -1,0 +1,222 @@
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[21-Apr-2026 09:25:10 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 07:53:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 17:10:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13d8fd42/public_html/bloomyschools.com/db.php:15
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/db.php(15): mysqli->__construct()
+#1 /home/a13d8fd42/public_html/bloomyschools.com/admission-form.php(3): include_once('/home/a13d8fd42...')
+#2 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/db.php on line 15
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 15:25:06 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[22-Apr-2026 20:02:04 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[23-Apr-2026 00:43:20 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 07:46:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 14:27:05 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 16:48:33 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 18:37:16 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[24-Apr-2026 20:20:58 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[25-Apr-2026 10:55:30 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 16:49:21 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[27-Apr-2026 22:07:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[28-Apr-2026 00:00:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 11:17:53 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[29-Apr-2026 12:33:49 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 08:51:36 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 23:07:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13d8fd42/public_html/bloomyschools.com/db.php:15
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/db.php(15): mysqli->__construct()
+#1 /home/a13d8fd42/public_html/bloomyschools.com/admission-form.php(3): include_once('/home/a13d8fd42...')
+#2 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/db.php on line 15
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[30-Apr-2026 21:32:38 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 00:52:29 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 08:29:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13d8fd42/public_html/bloomyschools.com/db.php:15
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/db.php(15): mysqli->__construct()
+#1 /home/a13d8fd42/public_html/bloomyschools.com/admission-form.php(3): include_once('/home/a13d8fd42...')
+#2 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/db.php on line 15
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[01-May-2026 21:19:28 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 00:54:52 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 12:35:26 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[03-May-2026 20:56:51 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[05-May-2026 22:09:13 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 16:43:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13d8fd42/public_html/bloomyschools.com/db.php:15
+Stack trace:
+#0 /home/a13d8fd42/public_html/bloomyschools.com/db.php(15): mysqli->__construct()
+#1 /home/a13d8fd42/public_html/bloomyschools.com/admission-form.php(3): include_once('/home/a13d8fd42...')
+#2 {main}
+  thrown in /home/a13d8fd42/public_html/bloomyschools.com/db.php on line 15
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 11:39:47 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[06-May-2026 22:13:34 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[07-May-2026 06:37:32 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:19 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 03:59:23 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:31 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112
+[08-May-2026 04:02:57 UTC] PHP Warning:  Undefined array key "fee" in /home/a13d8fd42/public_html/bloomyschools.com/our-program.php on line 112

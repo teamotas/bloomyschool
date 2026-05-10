@@ -387,7 +387,7 @@
                                 <small class="error text-danger"></small>
                             </div>
                             <div class="col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                                <input type="number" class="tw-py-3 tw-px-5 bg-main-two-50 border-neutral-100 border tw-rounded-md fw-normal tw-text-4 text-neutral-600 w-100 focus-visible-border-main-600" placeholder="Phone" name="phone" id="phone">
+                                <input type="tel" class="tw-py-3 tw-px-5 bg-main-two-50 border-neutral-100 border tw-rounded-md fw-normal tw-text-4 text-neutral-600 w-100 focus-visible-border-main-600" placeholder="Phone" name="phone" id="phone">
                                 <small class="error text-danger"></small>
                             </div>
                             <div class="col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -410,13 +410,18 @@
                                 <textarea class="tw-py-3 tw-px-5 bg-main-two-50 border-neutral-100 border tw-rounded-md fw-normal tw-text-4 text-neutral-600 w-100 focus-visible-border-main-600 tw-h-170-px" placeholder="Your message" name="message" id="message"></textarea>
                             </div>
                         </div>
-                        <button type="submit" class=" g-recaptcha btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5" data-block="button" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350"
-                            data-sitekey="6LdlEf0rAAAAAE3VLb3ipKPgJmc8pjs_DjgyKN_W"
+
+                        <button 
+                            type="button"
+                            class="g-recaptcha btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-mt-5"
+
+                            data-sitekey="6LfaGAEsAAAAAAK03v_nZRy74ZouoW7HKLFK39nW"
                             data-callback="onSubmit"
-                            data-action="submit"    
+                            data-size="invisible"
                         >
                             <span class="button__flair"></span>
                             <span class="button__label">Send Your Message</span>
+
                             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
                                 <img src="./assets/images/icon/banner-icon-white.png" alt="icon">
                             </span>
@@ -447,135 +452,147 @@
     <?php include('./layout/footer-1.php') ?>
 
     <?php include('./layout/link-js.php') ?>
+<script>
 
-    <script>
-        const form = document.getElementById("contactForm");
+    const form = document.getElementById("contactForm");
 
-        // Inputs
-        const nameEl = document.getElementById("name");
-        const emailEl = document.getElementById("email");
-        const phoneEl = document.getElementById("phone");
-        const programEl = document.getElementById("program");
-        const messageEl = document.getElementById("message");
+    // Inputs
+    const nameEl = document.getElementById("name");
+    const emailEl = document.getElementById("email");
+    const phoneEl = document.getElementById("phone");
+    const programEl = document.getElementById("program");
 
-        // Prevent multiple submits
-        let isSubmitting = false;
+    let isSubmitting = false;
 
-        // ===== Helpers =====
-        function showError(input, message) {
-            const small = input.parentElement.querySelector(".error");
-            if (small) small.innerText = message;
-            input.classList.add("input-error");
-            input.classList.remove("input-success");
+    // ===== Helpers =====
+    function showError(input, message) {
+
+        const small = input.parentElement.querySelector(".error");
+
+        if (small) {
+            small.innerText = message;
         }
 
-        function showSuccess(input) {
-            const small = input.parentElement.querySelector(".error");
-            if (small) small.innerText = "";
-            input.classList.remove("input-error");
-            input.classList.add("input-success");
+        input.classList.add("input-error");
+        input.classList.remove("input-success");
+    }
+
+    function showSuccess(input) {
+
+        const small = input.parentElement.querySelector(".error");
+
+        if (small) {
+            small.innerText = "";
         }
 
-        // ===== Validations =====
-        function validateName() {
-            let value = nameEl.value.trim();
-            if (!value) {
-                showError(nameEl, "Name is required");
-                return false;
-            }
-            showSuccess(nameEl);
-            return true;
+        input.classList.remove("input-error");
+        input.classList.add("input-success");
+    }
+
+    // ===== Validations =====
+    function validateName() {
+
+        let value = nameEl.value.trim();
+
+        if (!value) {
+            showError(nameEl, "Name is required");
+            return false;
         }
 
-        function validateEmail() {
-            let value = emailEl.value.trim();
-            let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,}$/;
+        showSuccess(nameEl);
 
-            if (!value) {
-                showError(emailEl, "Email is required");
-                return false;
-            }
-            if (!pattern.test(value)) {
-                showError(emailEl, "Invalid email");
-                return false;
-            }
+        return true;
+    }
 
-            showSuccess(emailEl);
-            return true;
+    function validateEmail() {
+
+        let value = emailEl.value.trim();
+
+        let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,}$/;
+
+        if (!value) {
+            showError(emailEl, "Email is required");
+            return false;
         }
 
-        function validatePhone() {
-            let value = phoneEl.value.trim();
-            let pattern = /^[6-9]\d{9}$/;
-
-            if (!pattern.test(value)) {
-                showError(phoneEl, "Enter valid 10-digit phone");
-                return false;
-            }
-
-            showSuccess(phoneEl);
-            return true;
+        if (!pattern.test(value)) {
+            showError(emailEl, "Invalid email");
+            return false;
         }
 
-        function validateProgram() {
-            if (!programEl.value) {
-                showError(programEl, "Select a program");
-                return false;
-            }
+        showSuccess(emailEl);
 
-            showSuccess(programEl);
-            return true;
+        return true;
+    }
+
+    function validatePhone() {
+
+        let value = phoneEl.value.trim();
+
+        let pattern = /^[6-9]\d{9}$/;
+
+        if (!pattern.test(value)) {
+            showError(phoneEl, "Enter valid 10-digit phone");
+            return false;
         }
 
-        function validateMessage() {
-            let value = messageEl.value.trim();
+        showSuccess(phoneEl);
 
-            if (value.length < 10) {
-                showError(messageEl, "Minimum 10 characters required");
-                return false;
-            }
+        return true;
+    }
 
-            showSuccess(messageEl);
-            return true;
+    function validateProgram() {
+
+        if (!programEl.value) {
+            showError(programEl, "Select a program");
+            return false;
         }
 
-        function validateAll() {
-            return (
-                validateName() &&
-                validateEmail() &&
-                validatePhone() &&
-                validateProgram() &&
-                validateMessage()
-            );
+        showSuccess(programEl);
+
+        return true;
+    }
+
+    function validateAll() {
+
+        return (
+            validateName() &&
+            validateEmail() &&
+            validatePhone() &&
+            validateProgram()
+        );
+    }
+
+    // ===== LIVE VALIDATION =====
+    nameEl.addEventListener("input", validateName);
+    emailEl.addEventListener("input", validateEmail);
+    phoneEl.addEventListener("input", validatePhone);
+
+    // ===== FORM SUBMIT =====
+    form.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
+        if (!validateAll()) {
+            return;
         }
 
-        // ===== EVENTS =====
-        nameEl.addEventListener("input", validateName);
-        emailEl.addEventListener("input", validateEmail);
-        phoneEl.addEventListener("input", validatePhone);
-        messageEl.addEventListener("input", validateMessage);
-
-        // ===== RECAPTCHA CALLBACK =====
-        function onSubmit(token) {
-            if (!isSubmitting) {
-                isSubmitting = true;
-                form.submit();
-            }
+        if (!isSubmitting) {
+            grecaptcha.execute();
         }
+    });
 
-        // ===== FORM SUBMIT =====
-        form.addEventListener("submit", function (e) {
-            if (!validateAll()) {
-                e.preventDefault();
-                return;
-            }
+    // ===== RECAPTCHA CALLBACK =====
+    function onSubmit(token) {
 
-            e.preventDefault();
+        if (!isSubmitting) {
 
-            if (!isSubmitting) {
-                grecaptcha.execute();
-            }
-        });
-    </script>
+            isSubmitting = true;
+
+            form.submit();
+        }
+    }
+
+</script>
 </body>
 </html>
